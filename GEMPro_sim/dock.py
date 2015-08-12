@@ -358,9 +358,11 @@ if __name__ == '__main__':
     f1 = os.path.join(args.params, 'flex.defn')
     f2 = os.path.join(args.params, 'flex_drive.tbl')
 
+    
+    print args
     # loading current files
     os.chdir(args.folder)
-    pdbs = glob.glob('{}-*.pdb'.format(args.basename))
+    #pdbs = glob.glob('{}-*.pdb'.format(args.basename))
     current_files = os.listdir(os.getcwd())
 
     # ligand name
@@ -372,11 +374,14 @@ if __name__ == '__main__':
         cofactors_list = shlex.split(args.cofactors)
 
     print('***************PARAMETERS***************')
-    print('FULL LIST: {}'.format(vars(args)))
-    print('LIGAND: {}'.format(ligandname))
-    print('COFACTORS: {}'.format(cofactors_list))
-    print('BINDING RESIDUES: {}'.format(args.residues))
-    print('RADIUS: {}'.format(args.radius))
+    print('FULL LIST: {0}'.format(vars(args)))
+    if args.ligand:
+	print('LIGAND: {0}'.format(ligandname))
+    if args.cofactors:
+        print('COFACTORS: {0}'.format(cofactors_list))
+    if args.residues:
+	print('BINDING RESIDUES: {0}'.format(args.residues))
+    print('RADIUS: {0}'.format(args.radius))
     print
 
     counter = 1
@@ -385,12 +390,12 @@ if __name__ == '__main__':
         print str(counter) + '/' + str(args.numframes)
         counter += 1
 
-        file_prefix = '{}-{:03d}'.format(args.basename, frame)
+        file_prefix = '{0}-{1:03d}'.format(args.basename, frame)
         print file_prefix
 
         # DOCKPREP
         # example: 3bwm-440_prep.mol2
-        pdb = '{}.pdb'.format(file_prefix)
+        pdb = '{0}.pdb'.format(file_prefix)
         prepped_check = '%s_prep.mol2' % file_prefix
         if prepped_check in current_files:
             print '***DOCKPREP PREVIOUSLY RUN***'
@@ -472,12 +477,13 @@ if __name__ == '__main__':
             gr = grid(receptor, box, amb, file_prefix)
 
         # DOCK
-        dock6_flexible_check = '%s_%s_flexible_scored.mol2' % (file_prefix, ligandname.split('.')[0])
-        if dock6_flexible_check in current_files:
-            print '***DOCK PREVIOUSLY RUN***'
-        else:
-            print 'RUNNING: DOCK'
-            do_dock6_flexible(args.ligand,sel_sph,gr,amb,f1,f2,file_prefix)
+        if args.ligand:
+	    dock6_flexible_check = '%s_%s_flexible_scored.mol2' % (file_prefix, ligandname.split('.')[0])
+            if dock6_flexible_check in current_files:
+                print '***DOCK PREVIOUSLY RUN***'
+            else:
+                print 'RUNNING: DOCK'
+                do_dock6_flexible(args.ligand,sel_sph,gr,amb,f1,f2,file_prefix)
 
         print
     print '***DOCKING COMPLETE***'
