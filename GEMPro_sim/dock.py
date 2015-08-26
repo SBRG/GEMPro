@@ -372,6 +372,8 @@ if __name__ == '__main__':
     # cofactors
     if args.cofactors:
         cofactors_list = shlex.split(args.cofactors)
+    else:
+	cofactors_list = []
 
     print('***************PARAMETERS***************')
     print('FULL LIST: {0}'.format(vars(args)))
