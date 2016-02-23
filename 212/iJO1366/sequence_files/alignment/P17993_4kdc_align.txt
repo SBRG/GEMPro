@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:08:25
+# Commandline: needle
+#    -outfile P17993_4kdc_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P17993.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/4kdc.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P17993_4kdc_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P17993
+# 2: 4kdc.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 240
+# Identity:     217/240 (90.4%)
+# Similarity:   217/240 (90.4%)
+# Gaps:          16/240 ( 6.7%)
+# Score: 1140.0
+# 
+#
+#=======================================
+
+P17993             1 MNAEKSPVNHNVDHEEIAKFEAVASRWWDLEGEFKPLHRINPLRLGYIAE     50
+                                    |||||||||||||||||||||||||||||||||||
+4kdc.A             1 ---------------EIAKFEAVASRWWDLEGEFKPLHRINPLRLGYIAE     35
+
+P17993            51 RAGGLFGKKVLDVGCGGGILAESMAREGATVTGLDMGFEPLQVAKLHALE    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+4kdc.A            36 RAGGLFGKKVLDVGCGGGILAESMAREGATVTGLDMGFEPLQVAKLHALE     85
+
+P17993           101 SGIQVDYVQETVEEHAAKHAGQYDVVTCMEMLEHVPDPQSVVRACAQLVK    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+4kdc.A            86 SGIQVDYVQETVEEHAAKHAGQYDVVTCMEMLEHVPDPQSVVRACAQLVK    135
+
+P17993           151 PGGDVFFSTLNRNGKSWLMAVVGAEYILRMVPKGTHDVKKFIKPAELLGW    200
+                     ||||||||||||||||||||||||||||||||.......|||||||||||
+4kdc.A           136 PGGDVFFSTLNRNGKSWLMAVVGAEYILRMVPXXXXXXXKFIKPAELLGW    185
+
+P17993           201 VDQTSLKERHITGLHYNPITNTFKLGPGVDVNYMLHTQNK    240
+                     ||||||||||||||||||||||||||||||||||||||| 
+4kdc.A           186 VDQTSLKERHITGLHYNPITNTFKLGPGVDVNYMLHTQN-    224
+
+
+#---------------------------------------
+#---------------------------------------

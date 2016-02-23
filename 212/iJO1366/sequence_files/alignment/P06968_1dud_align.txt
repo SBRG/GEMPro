@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:10
+# Commandline: needle
+#    -outfile P06968_1dud_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P06968.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1dud.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P06968_1dud_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P06968
+# 2: 1dud.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 152
+# Identity:     135/152 (88.8%)
+# Similarity:   135/152 (88.8%)
+# Gaps:          17/152 (11.2%)
+# Score: 693.0
+# 
+#
+#=======================================
+
+P06968             1 -MKKIDVKILDPRVGKEFPLPTYATSGSAGLDLRACLNDAVELAPGDTTL     49
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+1dud.A             1 MMKKIDVKILDPRVGKEFPLPTYATSGSAGLDLRACLNDAVELAPGDTTL     50
+
+P06968            50 VPTGLAIHIADPSLAAMMLPRSGLGHKHGIVLGNLVGLIDSDYQGQLMIS     99
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1dud.A            51 VPTGLAIHIADPSLAAMMLPRSGLGHKHGIVLGNLVGLIDSDYQGQLMIS    100
+
+P06968           100 VWNRGQDSFTIQPGERIAQMIFVPVVQAEFNLVEDFDATDRGEGGFGHSG    149
+                     ||||||||||||||||||||||||||||||||||||              
+1dud.A           101 VWNRGQDSFTIQPGERIAQMIFVPVVQAEFNLVEDF--------------    136
+
+P06968           150 RQ    151
+                       
+1dud.A           136 --    136
+
+
+#---------------------------------------
+#---------------------------------------

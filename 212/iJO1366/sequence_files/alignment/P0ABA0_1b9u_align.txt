@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:52
+# Commandline: needle
+#    -outfile P0ABA0_1b9u_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0ABA0.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1b9u.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0ABA0_1b9u_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0ABA0
+# 2: 1b9u.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 156
+# Identity:      33/156 (21.2%)
+# Similarity:    33/156 (21.2%)
+# Gaps:         123/156 (78.8%)
+# Score: 171.0
+# 
+#
+#=======================================
+
+P0ABA0             1 MNLNATILGQAIAFVLFVLFCMKYVWPPLMAAIEKRQKEIADGLASAERA     50
+                     |||||||||||||||||||||||||||||||||                 
+1b9u.A             1 MNLNATILGQAIAFVLFVLFCMKYVWPPLMAAI-----------------     33
+
+P0ABA0            51 HKDLDLAKASATDQLKKAKAEAQVIIEQANKRRSQILDEAKAEAEQERTK    100
+                                                                       
+1b9u.A            33 --------------------------------------------------     33
+
+P0ABA0           101 IVAQAQAEIEAERKRAREELRKQVAILAVAGAEKIIERSVDEAANSDIVD    150
+                                                                       
+1b9u.A            33 --------------------------------------------------     33
+
+P0ABA0           151 KLVAEL    156
+                           
+1b9u.A            33 ------     33
+
+
+#---------------------------------------
+#---------------------------------------

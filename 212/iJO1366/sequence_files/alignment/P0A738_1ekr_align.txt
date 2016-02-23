@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:29
+# Commandline: needle
+#    -outfile P0A738_1ekr_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0A738.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1ekr.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0A738_1ekr_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A738
+# 2: 1ekr.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 161
+# Identity:     143/161 (88.8%)
+# Similarity:   143/161 (88.8%)
+# Gaps:          15/161 ( 9.3%)
+# Score: 716.0
+# 
+#
+#=======================================
+
+P0A738             1 MSQLTHINAAGEAHMVDVSAKAETVREARAEAFVTMRSETLAMIIDGRHH     50
+                               ||||||||||||||||||||||||||||||||||||||||
+1ekr.A             1 ----------GEAHMVDVSAKAETVREARAEAFVTMRSETLAMIIDGRHH     40
+
+P0A738            51 KGDVFATARIAGIQAAKRTWDLIPLCHPLMLSKVEVNLQAEPEHNRVRIE    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1ekr.A            41 KGDVFATARIAGIQAAKRTWDLIPLCHPLMLSKVEVNLQAEPEHNRVRIE     90
+
+P0A738           101 TLCRLTGKTGVEMEALTAASVAALTIYDMCKAVQKDMVIGPVRLLAKSGG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||..
+1ekr.A            91 TLCRLTGKTGVEMEALTAASVAALTIYDMCKAVQKDMVIGPVRLLAKSXX    140
+
+P0A738           151 KSGDFKVEADD    161
+                     .|||||     
+1ekr.A           141 XSGDFK-----    146
+
+
+#---------------------------------------
+#---------------------------------------

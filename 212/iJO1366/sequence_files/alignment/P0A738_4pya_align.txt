@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:29
+# Commandline: needle
+#    -outfile P0A738_4pya_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0A738.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/4pya.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0A738_4pya_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A738
+# 2: 4pya.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 161
+# Identity:     123/161 (76.4%)
+# Similarity:   123/161 (76.4%)
+# Gaps:          37/161 (23.0%)
+# Score: 618.0
+# 
+#
+#=======================================
+
+P0A738             1 MSQLTHINAAGEAHMVDVSAKAETVREARAEAFVTMRSETLAMIIDGRHH     50
+                                           ||||||||||||||||||||||||||||
+4pya.A             1 ----------------------ETVREARAEAFVTMRSETLAMIIDGRHH     28
+
+P0A738            51 KGDVFATARIAGIQAAKRTWDLIPLCHPLMLSKVEVNLQAEPEHNRVRIE    100
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+4pya.A            29 AGDVFATARIAGIQAAKRTWDLIPLCHPLMLSKVEVNLQAEPEHNRVRIE     78
+
+P0A738           101 TLCRLTGKTGVEMEALTAASVAALTIYDMCKAVQKDMVIGPVRLLAKSGG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||    
+4pya.A            79 TLCRLTGKTGVEMEALTAASVAALTIYDMCKAVQKDMVIGPVRLLA----    124
+
+P0A738           151 KSGDFKVEADD    161
+                                
+4pya.A           124 -----------    124
+
+
+#---------------------------------------
+#---------------------------------------

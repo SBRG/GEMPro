@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:09:10
+# Commandline: needle
+#    -outfile P77667_2d2a_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P77667.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/2d2a.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P77667_2d2a_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P77667
+# 2: 2d2a.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 122
+# Identity:     114/122 (93.4%)
+# Similarity:   114/122 (93.4%)
+# Gaps:           8/122 ( 6.6%)
+# Score: 611.0
+# 
+#
+#=======================================
+
+P77667             1 MDMHSGTFNPQDFAWQGLTLTPAAAIHIRELVAKQPGMVGVRLGVKQTGC     50
+                             ||||||||||||||||||||||||||||||||||||||||||
+2d2a.A             1 --------NPQDFAWQGLTLTPAAAIHIRELVAKQPGMVGVRLGVKQTGC     42
+
+P77667            51 AGFGYVLDSVSEPDKDDLLFEHDGAKLFVPLQAMPFIDGTEVDFVREGLN    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2d2a.A            43 AGFGYVLDSVSEPDKDDLLFEHDGAKLFVPLQAMPFIDGTEVDFVREGLN     92
+
+P77667           101 QIFKFHNPKAQNECGCGESFGV    122
+                     ||||||||||||||||||||||
+2d2a.A            93 QIFKFHNPKAQNECGCGESFGV    114
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P77667
+# 2: 2d2a.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 122
+# Identity:     102/122 (83.6%)
+# Similarity:   102/122 (83.6%)
+# Gaps:          16/122 (13.1%)
+# Score: 534.0
+# 
+#
+#=======================================
+
+P77667             1 MDMHSGTFNPQDFAWQGLTLTPAAAIHIRELVAKQPGMVGVRLGVKQTGC     50
+                         |||||||||||||||||||||||||||||||||||||||||||...
+2d2a.B             1 ----SGTFNPQDFAWQGLTLTPAAAIHIRELVAKQPGMVGVRLGVKQXXX     46
+
+P77667            51 AGFGYVLDSVSEPDKDDLLFEHDGAKLFVPLQAMPFIDGTEVDFVREGLN    100
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+2d2a.B            47 XGFGYVLDSVSEPDKDDLLFEHDGAKLFVPLQAMPFIDGTEVDFVREGLN     96
+
+P77667           101 QIFKFHNPKAQNECGCGESFGV    122
+                     ||||||||||            
+2d2a.B            97 QIFKFHNPKA------------    106
+
+
+#---------------------------------------
+#---------------------------------------

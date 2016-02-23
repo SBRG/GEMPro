@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:08:15
+# Commandline: needle
+#    -outfile P0AGD1_1eso_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0AGD1.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1eso.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0AGD1_1eso_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0AGD1
+# 2: 1eso.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 180
+# Identity:     154/180 (85.6%)
+# Similarity:   154/180 (85.6%)
+# Gaps:          26/180 (14.4%)
+# Score: 777.0
+# 
+#
+#=======================================
+
+P0AGD1             1 MKRFSLAILALVVATGAQAASEKVEMNLVTSQGVGQSIGSVTITETDKGL     50
+                                        |||||||||||||||||||||||||||||||
+1eso.A             1 -------------------ASEKVEMNLVTSQGVGQSIGSVTITETDKGL     31
+
+P0AGD1            51 EFSPDLKALPPGEHGFHIHAKGSCQPATKDGKASAAESAGGHLDPQNTGK    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1eso.A            32 EFSPDLKALPPGEHGFHIHAKGSCQPATKDGKASAAESAGGHLDPQNTGK     81
+
+P0AGD1           101 HEGP-EGAGHLGDLPALVVNNDGKATDAVIAPRLKSL--DEIKDKALMVH    147
+                     |||| ||||||||||||||||||||||||||||||||  |||||||||||
+1eso.A            82 HEGPXEGAGHLGDLPALVVNNDGKATDAVIAPRLKSLXXDEIKDKALMVH    131
+
+P0AGD1           148 VGGDNMS----DQPKPLGGGGERYACGVIK    173
+                     |||||||    |||||||||||||||||||
+1eso.A           132 VGGDNMSXXXXDQPKPLGGGGERYACGVIK    161
+
+
+#---------------------------------------
+#---------------------------------------

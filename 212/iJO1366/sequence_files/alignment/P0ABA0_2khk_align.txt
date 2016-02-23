@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:52
+# Commandline: needle
+#    -outfile P0ABA0_2khk_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0ABA0.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/2khk.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0ABA0_2khk_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0ABA0
+# 2: 2khk.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 156
+# Identity:      53/156 (34.0%)
+# Similarity:    53/156 (34.0%)
+# Gaps:         103/156 (66.0%)
+# Score: 250.0
+# 
+#
+#=======================================
+
+P0ABA0             1 MNLNATILGQAIAFVLFVLFCMKYVWPPLMAAIEKRQKEIADGLASAERA     50
+                                                  |||||||||||||||||||||
+2khk.A             1 -----------------------------MAAIEKRQKEIADGLASAERA     21
+
+P0ABA0            51 HKDLDLAKASATDQLKKAKAEAQVIIEQANKRRSQILDEAKAEAEQERTK    100
+                     ||||||||||||||||||||||||||||||||                  
+2khk.A            22 HKDLDLAKASATDQLKKAKAEAQVIIEQANKR------------------     53
+
+P0ABA0           101 IVAQAQAEIEAERKRAREELRKQVAILAVAGAEKIIERSVDEAANSDIVD    150
+                                                                       
+2khk.A            53 --------------------------------------------------     53
+
+P0ABA0           151 KLVAEL    156
+                           
+2khk.A            53 ------     53
+
+
+#---------------------------------------
+#---------------------------------------

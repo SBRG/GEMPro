@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:49
+# Commandline: needle
+#    -outfile P0AA25_1xob_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0AA25.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1xob.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0AA25_1xob_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0AA25
+# 2: 1xob.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 109
+# Identity:     108/109 (99.1%)
+# Similarity:   108/109 (99.1%)
+# Gaps:           1/109 ( 0.9%)
+# Score: 563.0
+# 
+#
+#=======================================
+
+P0AA25             1 MSDKIIHLTDDSFDTDVLKADGAILVDFWAEWCGPCKMIAPILDEIADEY     50
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+1xob.A             1 -SDKIIHLTDDSFDTDVLKADGAILVDFWAEWCGPCKMIAPILDEIADEY     49
+
+P0AA25            51 QGKLTVAKLNIDQNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQL    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1xob.A            50 QGKLTVAKLNIDQNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQL     99
+
+P0AA25           101 KEFLDANLA    109
+                     |||||||||
+1xob.A           100 KEFLDANLA    108
+
+
+#---------------------------------------
+#---------------------------------------

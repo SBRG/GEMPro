@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:24
+# Commandline: needle
+#    -outfile P0A6I0_2fem_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0A6I0.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/2fem.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0A6I0_2fem_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A6I0
+# 2: 2fem.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 227
+# Identity:     212/227 (93.4%)
+# Similarity:   212/227 (93.4%)
+# Gaps:           2/227 ( 0.9%)
+# Score: 1029.0
+# 
+#
+#=======================================
+
+P0A6I0             1 MTAIAPVITIDGPSGAGKGTLCKAMAEALQWHLLDSGAIYRVLALAALHH     50
+                       ||||||||||||||||||||||||||||||||||||||||||||||||
+2fem.A             1 --AIAPVITIDGPSGAGKGTLCKAMAEALQWHLLDSGAIYRVLALAALHH     48
+
+P0A6I0            51 HVDVASEDALVPLASHLDVRFVSTNGNLEVILEGEDVSGEIRTQEVANAA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2fem.A            49 HVDVASEDALVPLASHLDVRFVSTNGNLEVILEGEDVSGEIRTQEVANAA     98
+
+P0A6I0           101 SQVAAFPRVREALLRRQRAFRELPGLIADGRDMGTVVFPDAPVKIFLDAS    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2fem.A            99 SQVAAFPRVREALLRRQRAFRELPGLIADGRDMGTVVFPDAPVKIFLDAS    148
+
+P0A6I0           151 SEERAHRRMLQLQEKGFSVNFERLLAEIKERDDRDRNRAVAPLVPAADAL    200
+                     |||||||||||||||||||||||||||||.............||||||||
+2fem.A           149 SEERAHRRMLQLQEKGFSVNFERLLAEIKXXXXXXXXXXXXXLVPAADAL    198
+
+P0A6I0           201 VLDSTTLSIEQVIEKALQYARQKLALA    227
+                     |||||||||||||||||||||||||||
+2fem.A           199 VLDSTTLSIEQVIEKALQYARQKLALA    225
+
+
+#---------------------------------------
+#---------------------------------------

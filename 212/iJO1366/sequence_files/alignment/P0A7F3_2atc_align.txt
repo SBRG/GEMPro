@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:36
+# Commandline: needle
+#    -outfile P0A7F3_2atc_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0A7F3.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/2atc.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0A7F3_2atc_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A7F3
+# 2: 2atc.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 333
+# Identity:      35/333 (10.5%)
+# Similarity:    59/333 (17.7%)
+# Gaps:         208/333 (62.5%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+P0A7F3             0 --------------------------------------------------      0
+                                                                       
+2atc.A             1 ANPLYQSHIISINDLSRDDLNLVLATAAKLKANPQPELLKHKVIASCFFE     50
+
+P0A7F3             0 --------------------------------------------------      0
+                                                                       
+2atc.A            51 ASTRTRLSFQTSMHRLGASVVGFSDSANTSLGKKGQTLANTISVISTYVD    100
+
+P0A7F3             1 -------------MTHDNKLQVEAIKRGTVIDHIPAQIGFKLLSLFKLTE     37
+                                  :..:....|..:..|...:..|.|   .||.||.:.:
+2atc.A           101 AIVMRHPQEGAARLATEFSGNVPVLNAGDGSNQHPTQ---TLLDLFTIQQ    147
+
+P0A7F3            38 TDQRITIGLNLPSGEMG-----------RKDLIKIENT---FLSEDQVDQ     73
+                     |:.|:.   ||....:|           .:.|.|.:..   |::.|    
+2atc.A           148 TEGRLN---NLHVAMVGDLKYGRTVHSLTQALAKFDGNRFYFIAPD----    190
+
+P0A7F3            74 LALYAPQATVNRIDNYEVVGKSRPSLPE---RIDNVLVCPNSNCISHAEP    120
+                      ||..|:..::.:|...:......|:.|   |:....:.|     |....
+2atc.A           191 -ALAMPEYILDMLDEKGIAWSLHSSIEEVMTRVQKERLDP-----SEYAX    234
+
+P0A7F3           121 VSSSFAVRKRANDIALKCKYCEKEFSHNVVLAN-----------------    153
+                     |.:.|.|  |||.:.         ..||..: |                 
+2atc.A           235 VKAQFLV--RANSLG---------GLHNAKM-NAKVLHPLPRVDEIATDV    272
+
+P0A7F3           153 ---------------------------------    153
+                                                      
+2atc.A           273 DKTPHAWYFQQAGNGIFARQALLALVLNRDLVL    305
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A7F3
+# 2: 2atc.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 153
+# Identity:     135/153 (88.2%)
+# Similarity:   146/153 (95.4%)
+# Gaps:           1/153 ( 0.7%)
+# Score: 682.0
+# 
+#
+#=======================================
+
+P0A7F3             1 MTHDNKLQVEAIKRGTVIDHIPAQIGFKLLSLFKLTETDQRITIGLNLPS     50
+                     |||::||||..|||||||:||||:||||||||||||||..||||||||||
+2atc.B             1 MTHNDKLQVAEIKRGTVINHIPAEIGFKLLSLFKLTETQDRITIGLNLPS     50
+
+P0A7F3            51 GEMGRKDLIKIENTFLSEDQVDQLALYAPQATVNRIDNYEVVGKSRPSLP    100
+                     |||||||||||||||||||:||:|||||||||||||::||||||||||||
+2atc.B            51 GEMGRKDLIKIENTFLSEDEVDELALYAPQATVNRINDYEVVGKSRPSLP    100
+
+P0A7F3           101 ERIDNVLVCPNSNCISHAEPVSSSFAVRKRANDIALKCKYCEKEFSHNVV    150
+                     ||..:|||||:||||||||||||||||| ||:||||||||||||||||||
+2atc.B           101 ERNIDVLVCPDSNCISHAEPVSSSFAVR-RADDIALKCKYCEKEFSHNVV    149
+
+P0A7F3           151 LAN    153
+                     |||
+2atc.B           150 LAN    152
+
+
+#---------------------------------------
+#---------------------------------------

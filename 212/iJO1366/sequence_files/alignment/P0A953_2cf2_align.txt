@@ -1,0 +1,765 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:44
+# Commandline: needle
+#    -outfile P0A953_2cf2_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0A953.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/2cf2.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0A953_2cf2_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A953
+# 2: 2cf2.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 406
+# Identity:     404/406 (99.5%)
+# Similarity:   404/406 (99.5%)
+# Gaps:           0/406 ( 0.0%)
+# Score: 2059.0
+# 
+#
+#=======================================
+
+P0A953             1 MKRAVITGLGIVSSIGNNQQEVLASLREGRSGITFSQELKDSGMRSHVWG     50
+                     |||.||||||||||||||||||||||||||||||||||||||||||||||
+2cf2.A             1 MKRVVITGLGIVSSIGNNQQEVLASLREGRSGITFSQELKDSGMRSHVWG     50
+
+P0A953            51 NVKLDTTGLIDRKVVRFMSDASIYAFLSMEQAIADAGLSPEAYQNNPRVG    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2cf2.A            51 NVKLDTTGLIDRKVVRFMSDASIYAFLSMEQAIADAGLSPEAYQNNPRVG    100
+
+P0A953           101 LIAGSGGGSPRFQVFGADAMRGPRGLKAVGPYVVTKAMASGVSACLATPF    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2cf2.A           101 LIAGSGGGSPRFQVFGADAMRGPRGLKAVGPYVVTKAMASGVSACLATPF    150
+
+P0A953           151 KIHGVNYSISSACATSAHCIGNAVEQIQLGKQDIVFAGGGEELCWEMACE    200
+                     ||||||||||||.|||||||||||||||||||||||||||||||||||||
+2cf2.A           151 KIHGVNYSISSASATSAHCIGNAVEQIQLGKQDIVFAGGGEELCWEMACE    200
+
+P0A953           201 FDAMGALSTKYNDTPEKASRTYDAHRDGFVIAGGGGMVVVEELEHALARG    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2cf2.A           201 FDAMGALSTKYNDTPEKASRTYDAHRDGFVIAGGGGMVVVEELEHALARG    250
+
+P0A953           251 AHIYAEIVGYGATSDGADMVAPSGEGAVRCMKMAMHGVDTPIDYLNSHGT    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2cf2.A           251 AHIYAEIVGYGATSDGADMVAPSGEGAVRCMKMAMHGVDTPIDYLNSHGT    300
+
+P0A953           301 STPVGDVKELAAIREVFGDKSPAISATKAMTGHSLGAAGVQEAIYSLLML    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2cf2.A           301 STPVGDVKELAAIREVFGDKSPAISATKAMTGHSLGAAGVQEAIYSLLML    350
+
+P0A953           351 EHGFIAPSINIEELDEQAAGLNIVTETTDRELTTVMSNSFGFGGTNATLV    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2cf2.A           351 EHGFIAPSINIEELDEQAAGLNIVTETTDRELTTVMSNSFGFGGTNATLV    400
+
+P0A953           401 MRKLKD    406
+                     ||||||
+2cf2.A           401 MRKLKD    406
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A953
+# 2: 2cf2.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 487
+# Identity:      79/487 (16.2%)
+# Similarity:   114/487 (23.4%)
+# Gaps:         254/487 (52.2%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+P0A953             1 MKRAVITGLGIVSSIGNNQQEVLASLREGRSG-----ITFSQELKDSGMR     45
+                                          :|..:..|:..     :|....|..:..|
+2cf2.B             1 ---------------------MLVLVAPGQGAQTPGFLTDWLALPGAADR     29
+
+P0A953            46 SHVWGNVKLDTTGL--------IDRKVVRFMSDASIYAFLSMEQAIADA-     86
+                     ...|.    |..||        .|...:|   |.|:...|.:...|..| 
+2cf2.B            30 VAAWS----DAIGLDLAHFGTKADADEIR---DTSVAQPLLVAAGILSAA     72
+
+P0A953            87 --------------GLSPEAYQNNPRVGLIAGSGGGSPRFQVF-------    115
+                                   |.:|         |.:||...|.....||       
+2cf2.B            73 ALGTXXXXXXXXXXGFTP---------GAVAGHSVGEITAAVFAGVLDDT    113
+
+P0A953           116 GADAMRGPRGLKAVGPYVVTKAMASGVSACLATPFKIHGVNYSISSACAT    165
+                     .|.::...|||.......||:   :|:||.|       |.:..:|     
+2cf2.B           114 AALSLVRRRGLAMAEAAAVTE---TGMSALL-------GGDPEVS-----    148
+
+P0A953           166 SAHCIGNAVEQIQL------GKQDIVFAGGGEELCWEMACEFD-------    202
+                     .||     :|::.|      |...||.||..|:|.   |...|       
+2cf2.B           149 VAH-----LERLGLTPANVNGAGQIVAAGTMEQLA---ALNEDKPEGVRK    190
+
+P0A953           203 -----AMGALSTKYND-------------TPEKASRTYDAHRDGFVIAGG    234
+                          ..||..|::..             ||.....||.:::||      
+2cf2.B           191 VVPLKVAGAFHTRHMAPAVDKLAEAAKALTPADPKVTYVSNKDG------    234
+
+P0A953           235 GGMVVVEELEHALARGAHIYAEIVGYGATSDGADM---------------    269
+                               .|:|.|..:...:||..|.....|:               
+2cf2.B           235 ----------RAVASGTEVLDRLVGQVANPVRWDLCMETFKELGVTAIIE    274
+
+P0A953           270 VAPSGEGAVRCMKMAMHGVDTPIDYLNSHGTSTPVGDVKELAAIREVFGD    319
+                     |.|.|. .....|.|:.||.|       ....||    .:|.|.||:..:
+2cf2.B           275 VCPGGT-LTGLAKRALPGVKT-------LALKTP----DDLDAARELVAE    312
+
+P0A953           320 KSPAISATKAMTGHSLGAAGVQEAIYSLLMLEHGFIAPSINIEELDEQAA    369
+                     .:                                                
+2cf2.B           313 HT------------------------------------------------    314
+
+P0A953           370 GLNIVTETTDRELTTVMSNSFGFGGTNATLVMRKLKD    406
+                                                          
+2cf2.B           314 -------------------------------------    314
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A953
+# 2: 2cf2.C
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1507
+# Identity:      18/1507 ( 1.2%)
+# Similarity:    32/1507 ( 2.1%)
+# Gaps:        1437/1507 (95.4%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C             1 VDKRESYTKEDLLASGRGELFGAKGPQLPAPNMLMMDRVVKMTETGGNFD     50
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C            51 KGYVEAELDINPDLWFFGCHFIGDPVMPGCLGLDAMWQLVGFYLGWLGGE    100
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           101 GKGRALGVGEVKFTGQVLPTAKKVTYRIHFKRIVNRRLIMGLADGEVLVD    150
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           151 GRLIYTASDLKVGLFQDTSAFXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    200
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           201 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    250
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           251 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    300
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           301 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    350
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           351 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    400
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           401 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    450
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           451 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    500
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           501 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    550
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           551 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    600
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           601 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    650
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           651 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    700
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           701 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    750
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           751 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    800
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           801 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    850
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           851 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    900
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           901 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    950
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C           951 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1000
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C          1001 VDKRESYTKEDLLASGRGELFGAKGPQLPAPNMLMMDRVVKMTETGGNFD   1050
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.C          1051 KGYVEAELDINPDLWFFGCHFIGDPVMPGCLGLDAMWQLVGFYLGWLGGE   1100
+
+P0A953             1 -MKRAVITGLGIVSSIGNNQQEVLASLREGRSGITFSQELKDSGMRSHVW     49
+                      ..||:  |:|.|...|    :||.:.::    :|:....|....|..:.
+2cf2.C          1101 GKGRAL--GVGEVKFTG----QVLPTAKK----VTYRIHFKRIVNRRLIM   1140
+
+P0A953            50 GNVKLDTTGLIDRKVVRFMSDASIYAFLSMEQAIADAGLSPEAYQNNPRV     99
+                     |  ..|...|:|.:::...||..:..|......                 
+2cf2.C          1141 G--LADGEVLVDGRLIYTASDLKVGLFQDTSAF-----------------   1171
+
+P0A953           100 GLIAGSGGGSPRFQVFGADAMRGPRGLKAVGPYVVTKAMASGVSACLATP    149
+                                                                       
+2cf2.C          1171 --------------------------------------------------   1171
+
+P0A953           150 FKIHGVNYSISSACATSAHCIGNAVEQIQLGKQDIVFAGGGEELCWEMAC    199
+                                                                       
+2cf2.C          1171 --------------------------------------------------   1171
+
+P0A953           200 EFDAMGALSTKYNDTPEKASRTYDAHRDGFVIAGGGGMVVVEELEHALAR    249
+                                                                       
+2cf2.C          1171 --------------------------------------------------   1171
+
+P0A953           250 GAHIYAEIVGYGATSDGADMVAPSGEGAVRCMKMAMHGVDTPIDYLNSHG    299
+                                                                       
+2cf2.C          1171 --------------------------------------------------   1171
+
+P0A953           300 TSTPVGDVKELAAIREVFGDKSPAISATKAMTGHSLGAAGVQEAIYSLLM    349
+                                                                       
+2cf2.C          1171 --------------------------------------------------   1171
+
+P0A953           350 LEHGFIAPSINIEELDEQAAGLNIVTETTDRELTTVMSNSFGFGGTNATL    399
+                                                                       
+2cf2.C          1171 --------------------------------------------------   1171
+
+P0A953           400 VMRKLKD    406
+                            
+2cf2.C          1171 -------   1171
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A953
+# 2: 2cf2.D
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 444
+# Identity:      88/444 (19.8%)
+# Similarity:   132/444 (29.7%)
+# Gaps:         180/444 (40.5%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+P0A953             1 MKRAVITGLG----IVSSIGNNQQEVLASLREGRSGITFSQELKDSGMRS     46
+                     ||..|:..||    :|.......:|....||....|:.|:..|...|   
+2cf2.D             1 MKAWVLKRLGGPLELVDLPEPEAEEGEVVLRVEAVGLNFADHLMRLG---     47
+
+P0A953            47 HVWGNVKLDTTGLIDRKVVRFMSDASIYAFLSMEQAIADAGLSPEAYQNN     96
+                                                 |:|:.        |.|......
+2cf2.D            48 ----------------------------AYLTR--------LHPPFIPGM     61
+
+P0A953            97 PRVGLIAG--------SGGGSPRFQVFGADAMRGPRGLKAVGPYVVTKAM    138
+                     ..||::.|        .||.:.|..|.....:..|.||   .|.......
+2cf2.D            62 EVVGVVEGRRYAALVPQGGLAERVAVPKGALLPLPEGL---SPEEAAAFP    108
+
+P0A953           139 ASGVSACL------ATPFKIHGVNYSISSACATSAHCIGNAVEQI--QLG    180
+                     .|.::|.|      |.|    |....:.:|    |..:|.|..|:  .:|
+2cf2.D           109 VSFLTAYLALKRAQARP----GEKVLVQAA----AGALGTAAVQVARAMG    150
+
+P0A953           181 KQDIVFAGGGEELCWEMACEFDAMGA-LSTKYNDTPEKASRTYDAHRDGF    229
+                     .:.:..|...|:|...:     |:|| .:..|.:.||:|.          
+2cf2.D           151 LRVLAAASRPEKLALPL-----ALGAEEAATYAEVPERAK----------    185
+
+P0A953           230 VIAGGGGMVVVE----ELEHALARGAHIYAEIVGYGATSDGADMVAPSGE    275
+                       |.||..:|:|    |:|.:|...|| ...:|...........:.|   
+2cf2.D           186 --AWGGLDLVLEVRGKEVEESLGLLAH-GGRLVYIXXXXXXXAPIPP---    229
+
+P0A953           276 GAVRCMK--MAMHGVDTPIDYLNSHGTSTPVGDVKELAAIREVFGDKSPA    323
+                       :|.|:  :|:.|.     :|      ||:        :||        
+2cf2.D           230 --LRLMRRNLAVLGF-----WL------TPL--------LRE--------    250
+
+P0A953           324 ISATKAMTGHSLGAAGVQEAIYSLLMLEHGFIAPSINIEELDEQAAGLNI    373
+                                  .|.|:||:        ||:.|.:.             
+2cf2.D           251 -------------GALVEEAL--------GFLLPRLG-------------    266
+
+P0A953           374 VTETTDRELTTVMSNSFGFGGTNATLVMRKLKD-----------    406
+                           |||..|:...|.|  ..|....|.|.|           
+2cf2.D           267 ------RELRPVVGPVFPF--AEAEAAFRALLDRGHTGKVVVRL    302
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A953
+# 2: 2cf2.E
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 530
+# Identity:      39/530 ( 7.4%)
+# Similarity:    65/530 (12.3%)
+# Gaps:         413/530 (77.9%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+P0A953             1 MKRAVITGLGIVSSIGNNQQEVLASLREGRSGITFSQELKDSGMRSHVWG     50
+                                                                       
+2cf2.E             0 --------------------------------------------------      0
+
+P0A953            51 NVKLDTTGLIDRKVVRFMSDASIYAFLSMEQAIADAGLSPEAYQNNPRVG    100
+                                                                       
+2cf2.E             0 --------------------------------------------------      0
+
+P0A953           101 LIAGSGGGSPRFQVFGADAMRGPRGLKAVGPYVVTKAMASGVSACLATPF    150
+                                                                       
+2cf2.E             0 --------------------------------------------------      0
+
+P0A953           151 KIHGVNYSISSACATSAHCIGNAVEQIQLGKQDIVFAGGGEELCWEMACE    200
+                                                                     ..
+2cf2.E             1 ------------------------------------------------MN      2
+
+P0A953           201 FDAMGALSTKYNDTPEKASRTYDAHRDGFVIAGGGGMVVVEELEHALARG    250
+                     |:...||.|       .|||             |.|..:.|.|   .|||
+2cf2.E             3 FEGKIALVT-------GASR-------------GIGRAIAETL---AARG     29
+
+P0A953           251 AHIYAEIVGYGATSDGADMVAPSGEGAVRCMKMAMHGVDTPIDYLNSHGT    300
+                         |:::|...:.:||..::                     |||.::|.
+2cf2.E            30 ----AKVIGTATSENGAQAIS---------------------DYLGANGK     54
+
+P0A953           301 STPVGDVKELAAIREVFGDKSPAISATKAMTGHSLGAAGVQEAIYSLLML    350
+                     ...: :|.:.|:|                            |::...:..
+2cf2.E            55 GLML-NVTDPASI----------------------------ESVLEKIRA     75
+
+P0A953           351 EHGFIAPSINIEELDEQAAGL---NIVTETTDRELTTVMSNSFGFGGTNA    397
+                     |.|.:...:|       .||:   |::....|.|...::.       ||.
+2cf2.E            76 EFGEVDILVN-------NAGITRDNLLMRMKDEEWNDIIE-------TNL    111
+
+P0A953           398 TLVMRKLKD-----------------------------------------    406
+                     :.|.|..|.                                         
+2cf2.E           112 SSVFRLSKAVMRAMMKKRHGRIITIGXXXXXXXXXGQANYAAAKAGLIGF    161
+
+P0A953           406 --------------------------------------------------    406
+                                                                       
+2cf2.E           162 SKSLAREVASRGITVNVVAPGFIETXXXXXXSDDQRAGILAQVPAGRLGG    211
+
+P0A953           406 ------------------------------    406
+                                                   
+2cf2.E           212 AQEIANAVAFLASDEAAYITGETLHVNGGM    241
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A953
+# 2: 2cf2.J
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 406
+# Identity:     404/406 (99.5%)
+# Similarity:   404/406 (99.5%)
+# Gaps:           0/406 ( 0.0%)
+# Score: 2059.0
+# 
+#
+#=======================================
+
+P0A953             1 MKRAVITGLGIVSSIGNNQQEVLASLREGRSGITFSQELKDSGMRSHVWG     50
+                     |||.||||||||||||||||||||||||||||||||||||||||||||||
+2cf2.J             1 MKRVVITGLGIVSSIGNNQQEVLASLREGRSGITFSQELKDSGMRSHVWG     50
+
+P0A953            51 NVKLDTTGLIDRKVVRFMSDASIYAFLSMEQAIADAGLSPEAYQNNPRVG    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2cf2.J            51 NVKLDTTGLIDRKVVRFMSDASIYAFLSMEQAIADAGLSPEAYQNNPRVG    100
+
+P0A953           101 LIAGSGGGSPRFQVFGADAMRGPRGLKAVGPYVVTKAMASGVSACLATPF    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2cf2.J           101 LIAGSGGGSPRFQVFGADAMRGPRGLKAVGPYVVTKAMASGVSACLATPF    150
+
+P0A953           151 KIHGVNYSISSACATSAHCIGNAVEQIQLGKQDIVFAGGGEELCWEMACE    200
+                     ||||||||||||.|||||||||||||||||||||||||||||||||||||
+2cf2.J           151 KIHGVNYSISSASATSAHCIGNAVEQIQLGKQDIVFAGGGEELCWEMACE    200
+
+P0A953           201 FDAMGALSTKYNDTPEKASRTYDAHRDGFVIAGGGGMVVVEELEHALARG    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2cf2.J           201 FDAMGALSTKYNDTPEKASRTYDAHRDGFVIAGGGGMVVVEELEHALARG    250
+
+P0A953           251 AHIYAEIVGYGATSDGADMVAPSGEGAVRCMKMAMHGVDTPIDYLNSHGT    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2cf2.J           251 AHIYAEIVGYGATSDGADMVAPSGEGAVRCMKMAMHGVDTPIDYLNSHGT    300
+
+P0A953           301 STPVGDVKELAAIREVFGDKSPAISATKAMTGHSLGAAGVQEAIYSLLML    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2cf2.J           301 STPVGDVKELAAIREVFGDKSPAISATKAMTGHSLGAAGVQEAIYSLLML    350
+
+P0A953           351 EHGFIAPSINIEELDEQAAGLNIVTETTDRELTTVMSNSFGFGGTNATLV    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2cf2.J           351 EHGFIAPSINIEELDEQAAGLNIVTETTDRELTTVMSNSFGFGGTNATLV    400
+
+P0A953           401 MRKLKD    406
+                     ||||||
+2cf2.J           401 MRKLKD    406
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A953
+# 2: 2cf2.K
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 487
+# Identity:      79/487 (16.2%)
+# Similarity:   114/487 (23.4%)
+# Gaps:         254/487 (52.2%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+P0A953             1 MKRAVITGLGIVSSIGNNQQEVLASLREGRSG-----ITFSQELKDSGMR     45
+                                          :|..:..|:..     :|....|..:..|
+2cf2.K             1 ---------------------MLVLVAPGQGAQTPGFLTDWLALPGAADR     29
+
+P0A953            46 SHVWGNVKLDTTGL--------IDRKVVRFMSDASIYAFLSMEQAIADA-     86
+                     ...|.    |..||        .|...:|   |.|:...|.:...|..| 
+2cf2.K            30 VAAWS----DAIGLDLAHFGTKADADEIR---DTSVAQPLLVAAGILSAA     72
+
+P0A953            87 --------------GLSPEAYQNNPRVGLIAGSGGGSPRFQVF-------    115
+                                   |.:|         |.:||...|.....||       
+2cf2.K            73 ALGTXXXXXXXXXXGFTP---------GAVAGHSVGEITAAVFAGVLDDT    113
+
+P0A953           116 GADAMRGPRGLKAVGPYVVTKAMASGVSACLATPFKIHGVNYSISSACAT    165
+                     .|.::...|||.......||:   :|:||.|       |.:..:|     
+2cf2.K           114 AALSLVRRRGLAMAEAAAVTE---TGMSALL-------GGDPEVS-----    148
+
+P0A953           166 SAHCIGNAVEQIQL------GKQDIVFAGGGEELCWEMACEFD-------    202
+                     .||     :|::.|      |...||.||..|:|.   |...|       
+2cf2.K           149 VAH-----LERLGLTPANVNGAGQIVAAGTMEQLA---ALNEDKPEGVRK    190
+
+P0A953           203 -----AMGALSTKYND-------------TPEKASRTYDAHRDGFVIAGG    234
+                          ..||..|::..             ||.....||.:::||      
+2cf2.K           191 VVPLKVAGAFHTRHMAPAVDKLAEAAKALTPADPKVTYVSNKDG------    234
+
+P0A953           235 GGMVVVEELEHALARGAHIYAEIVGYGATSDGADM---------------    269
+                               .|:|.|..:...:||..|.....|:               
+2cf2.K           235 ----------RAVASGTEVLDRLVGQVANPVRWDLCMETFKELGVTAIIE    274
+
+P0A953           270 VAPSGEGAVRCMKMAMHGVDTPIDYLNSHGTSTPVGDVKELAAIREVFGD    319
+                     |.|.|. .....|.|:.||.|       ....||    .:|.|.||:..:
+2cf2.K           275 VCPGGT-LTGLAKRALPGVKT-------LALKTP----DDLDAARELVAE    312
+
+P0A953           320 KSPAISATKAMTGHSLGAAGVQEAIYSLLMLEHGFIAPSINIEELDEQAA    369
+                     .:                                                
+2cf2.K           313 HT------------------------------------------------    314
+
+P0A953           370 GLNIVTETTDRELTTVMSNSFGFGGTNATLVMRKLKD    406
+                                                          
+2cf2.K           314 -------------------------------------    314
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A953
+# 2: 2cf2.L
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1507
+# Identity:      18/1507 ( 1.2%)
+# Similarity:    32/1507 ( 2.1%)
+# Gaps:        1437/1507 (95.4%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L             1 VDKRESYTKEDLLASGRGELFGAKGPQLPAPNMLMMDRVVKMTETGGNFD     50
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L            51 KGYVEAELDINPDLWFFGCHFIGDPVMPGCLGLDAMWQLVGFYLGWLGGE    100
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           101 GKGRALGVGEVKFTGQVLPTAKKVTYRIHFKRIVNRRLIMGLADGEVLVD    150
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           151 GRLIYTASDLKVGLFQDTSAFXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    200
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           201 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    250
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           251 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    300
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           301 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    350
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           351 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    400
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           401 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    450
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           451 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    500
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           501 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    550
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           551 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    600
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           601 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    650
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           651 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    700
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           701 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    750
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           751 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    800
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           801 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    850
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           851 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    900
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           901 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    950
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L           951 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   1000
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L          1001 VDKRESYTKEDLLASGRGELFGAKGPQLPAPNMLMMDRVVKMTETGGNFD   1050
+
+P0A953             0 --------------------------------------------------      0
+                                                                       
+2cf2.L          1051 KGYVEAELDINPDLWFFGCHFIGDPVMPGCLGLDAMWQLVGFYLGWLGGE   1100
+
+P0A953             1 -MKRAVITGLGIVSSIGNNQQEVLASLREGRSGITFSQELKDSGMRSHVW     49
+                      ..||:  |:|.|...|    :||.:.::    :|:....|....|..:.
+2cf2.L          1101 GKGRAL--GVGEVKFTG----QVLPTAKK----VTYRIHFKRIVNRRLIM   1140
+
+P0A953            50 GNVKLDTTGLIDRKVVRFMSDASIYAFLSMEQAIADAGLSPEAYQNNPRV     99
+                     |  ..|...|:|.:::...||..:..|......                 
+2cf2.L          1141 G--LADGEVLVDGRLIYTASDLKVGLFQDTSAF-----------------   1171
+
+P0A953           100 GLIAGSGGGSPRFQVFGADAMRGPRGLKAVGPYVVTKAMASGVSACLATP    149
+                                                                       
+2cf2.L          1171 --------------------------------------------------   1171
+
+P0A953           150 FKIHGVNYSISSACATSAHCIGNAVEQIQLGKQDIVFAGGGEELCWEMAC    199
+                                                                       
+2cf2.L          1171 --------------------------------------------------   1171
+
+P0A953           200 EFDAMGALSTKYNDTPEKASRTYDAHRDGFVIAGGGGMVVVEELEHALAR    249
+                                                                       
+2cf2.L          1171 --------------------------------------------------   1171
+
+P0A953           250 GAHIYAEIVGYGATSDGADMVAPSGEGAVRCMKMAMHGVDTPIDYLNSHG    299
+                                                                       
+2cf2.L          1171 --------------------------------------------------   1171
+
+P0A953           300 TSTPVGDVKELAAIREVFGDKSPAISATKAMTGHSLGAAGVQEAIYSLLM    349
+                                                                       
+2cf2.L          1171 --------------------------------------------------   1171
+
+P0A953           350 LEHGFIAPSINIEELDEQAAGLNIVTETTDRELTTVMSNSFGFGGTNATL    399
+                                                                       
+2cf2.L          1171 --------------------------------------------------   1171
+
+P0A953           400 VMRKLKD    406
+                            
+2cf2.L          1171 -------   1171
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A953
+# 2: 2cf2.M
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 444
+# Identity:      88/444 (19.8%)
+# Similarity:   132/444 (29.7%)
+# Gaps:         180/444 (40.5%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+P0A953             1 MKRAVITGLG----IVSSIGNNQQEVLASLREGRSGITFSQELKDSGMRS     46
+                     ||..|:..||    :|.......:|....||....|:.|:..|...|   
+2cf2.M             1 MKAWVLKRLGGPLELVDLPEPEAEEGEVVLRVEAVGLNFADHLMRLG---     47
+
+P0A953            47 HVWGNVKLDTTGLIDRKVVRFMSDASIYAFLSMEQAIADAGLSPEAYQNN     96
+                                                 |:|:.        |.|......
+2cf2.M            48 ----------------------------AYLTR--------LHPPFIPGM     61
+
+P0A953            97 PRVGLIAG--------SGGGSPRFQVFGADAMRGPRGLKAVGPYVVTKAM    138
+                     ..||::.|        .||.:.|..|.....:..|.||   .|.......
+2cf2.M            62 EVVGVVEGRRYAALVPQGGLAERVAVPKGALLPLPEGL---SPEEAAAFP    108
+
+P0A953           139 ASGVSACL------ATPFKIHGVNYSISSACATSAHCIGNAVEQI--QLG    180
+                     .|.::|.|      |.|    |....:.:|    |..:|.|..|:  .:|
+2cf2.M           109 VSFLTAYLALKRAQARP----GEKVLVQAA----AGALGTAAVQVARAMG    150
+
+P0A953           181 KQDIVFAGGGEELCWEMACEFDAMGA-LSTKYNDTPEKASRTYDAHRDGF    229
+                     .:.:..|...|:|...:     |:|| .:..|.:.||:|.          
+2cf2.M           151 LRVLAAASRPEKLALPL-----ALGAEEAATYAEVPERAK----------    185
+
+P0A953           230 VIAGGGGMVVVE----ELEHALARGAHIYAEIVGYGATSDGADMVAPSGE    275
+                       |.||..:|:|    |:|.:|...|| ...:|...........:.|   
+2cf2.M           186 --AWGGLDLVLEVRGKEVEESLGLLAH-GGRLVYIXXXXXXXAPIPP---    229
+
+P0A953           276 GAVRCMK--MAMHGVDTPIDYLNSHGTSTPVGDVKELAAIREVFGDKSPA    323
+                       :|.|:  :|:.|.     :|      ||:        :||        
+2cf2.M           230 --LRLMRRNLAVLGF-----WL------TPL--------LRE--------    250
+
+P0A953           324 ISATKAMTGHSLGAAGVQEAIYSLLMLEHGFIAPSINIEELDEQAAGLNI    373
+                                  .|.|:||:        ||:.|.:.             
+2cf2.M           251 -------------GALVEEAL--------GFLLPRLG-------------    266
+
+P0A953           374 VTETTDRELTTVMSNSFGFGGTNATLVMRKLKD-----------    406
+                           |||..|:...|.|  ..|....|.|.|           
+2cf2.M           267 ------RELRPVVGPVFPF--AEAEAAFRALLDRGHTGKVVVRL    302
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A953
+# 2: 2cf2.N
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 530
+# Identity:      39/530 ( 7.4%)
+# Similarity:    65/530 (12.3%)
+# Gaps:         413/530 (77.9%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+P0A953             1 MKRAVITGLGIVSSIGNNQQEVLASLREGRSGITFSQELKDSGMRSHVWG     50
+                                                                       
+2cf2.N             0 --------------------------------------------------      0
+
+P0A953            51 NVKLDTTGLIDRKVVRFMSDASIYAFLSMEQAIADAGLSPEAYQNNPRVG    100
+                                                                       
+2cf2.N             0 --------------------------------------------------      0
+
+P0A953           101 LIAGSGGGSPRFQVFGADAMRGPRGLKAVGPYVVTKAMASGVSACLATPF    150
+                                                                       
+2cf2.N             0 --------------------------------------------------      0
+
+P0A953           151 KIHGVNYSISSACATSAHCIGNAVEQIQLGKQDIVFAGGGEELCWEMACE    200
+                                                                     ..
+2cf2.N             1 ------------------------------------------------MN      2
+
+P0A953           201 FDAMGALSTKYNDTPEKASRTYDAHRDGFVIAGGGGMVVVEELEHALARG    250
+                     |:...||.|       .|||             |.|..:.|.|   .|||
+2cf2.N             3 FEGKIALVT-------GASR-------------GIGRAIAETL---AARG     29
+
+P0A953           251 AHIYAEIVGYGATSDGADMVAPSGEGAVRCMKMAMHGVDTPIDYLNSHGT    300
+                         |:::|...:.:||..::                     |||.::|.
+2cf2.N            30 ----AKVIGTATSENGAQAIS---------------------DYLGANGK     54
+
+P0A953           301 STPVGDVKELAAIREVFGDKSPAISATKAMTGHSLGAAGVQEAIYSLLML    350
+                     ...: :|.:.|:|                            |::...:..
+2cf2.N            55 GLML-NVTDPASI----------------------------ESVLEKIRA     75
+
+P0A953           351 EHGFIAPSINIEELDEQAAGL---NIVTETTDRELTTVMSNSFGFGGTNA    397
+                     |.|.:...:|       .||:   |::....|.|...::.       ||.
+2cf2.N            76 EFGEVDILVN-------NAGITRDNLLMRMKDEEWNDIIE-------TNL    111
+
+P0A953           398 TLVMRKLKD-----------------------------------------    406
+                     :.|.|..|.                                         
+2cf2.N           112 SSVFRLSKAVMRAMMKKRHGRIITIGXXXXXXXXXGQANYAAAKAGLIGF    161
+
+P0A953           406 --------------------------------------------------    406
+                                                                       
+2cf2.N           162 SKSLAREVASRGITVNVVAPGFIETXXXXXXSDDQRAGILAQVPAGRLGG    211
+
+P0A953           406 ------------------------------    406
+                                                   
+2cf2.N           212 AQEIANAVAFLASDEAAYITGETLHVNGGM    241
+
+
+#---------------------------------------
+#---------------------------------------

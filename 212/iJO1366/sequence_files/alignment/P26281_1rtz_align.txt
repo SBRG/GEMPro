@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:08:33
+# Commandline: needle
+#    -outfile P26281_1rtz_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P26281.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1rtz.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P26281_1rtz_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P26281
+# 2: 1rtz.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 159
+# Identity:     151/159 (95.0%)
+# Similarity:   151/159 (95.0%)
+# Gaps:           1/159 ( 0.6%)
+# Score: 776.0
+# 
+#
+#=======================================
+
+P26281             1 MTVAYIAIGSNLASPLEQVNAALKALGDIPESHILTVSSFYRTPPLGPQD     50
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+1rtz.A             1 -TVAYIAIGSNLASPLEQVNAALKALGDIPESHILTVSSFYRTPPLGPQD     49
+
+P26281            51 QPDYLNAAVALETSLAPEELLNHTQRIELQQGRVRKAERWGPRTLDLDIM    100
+                     |||||||||||||||||||||||||||||||||.......||||||||||
+1rtz.A            50 QPDYLNAAVALETSLAPEELLNHTQRIELQQGRGXXXXXXGPRTLDLDIM     99
+
+P26281           101 LFGNEVINTERLTVPHYDMKNRGFMLWPLFEIAPELVFPDGEMLRQILHT    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1rtz.A           100 LFGNEVINTERLTVPHYDMKNRGFMLWPLFEIAPELVFPDGEMLRQILHT    149
+
+P26281           151 RAFDKLNKW    159
+                     |||||||||
+1rtz.A           150 RAFDKLNKW    158
+
+
+#---------------------------------------
+#---------------------------------------

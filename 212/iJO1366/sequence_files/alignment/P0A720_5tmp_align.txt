@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:29
+# Commandline: needle
+#    -outfile P0A720_5tmp_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0A720.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/5tmp.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0A720_5tmp_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A720
+# 2: 5tmp.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 213
+# Identity:     209/213 (98.1%)
+# Similarity:   210/213 (98.6%)
+# Gaps:           3/213 ( 1.4%)
+# Score: 1053.0
+# 
+#
+#=======================================
+
+P0A720             1 MRSKYIVIEGLEGAGKTTARNVVVETLEQLGIRDMVFTREPGGTQLAEKL     50
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+5tmp.A             1 -RSKYIVIEGLEGAGKTTARNVVVETLEQLGIRDMVFTREPGGTQLAEKL     49
+
+P0A720            51 RSLVLDIKSVGDEVITDKAEVLMFYAARVQLVETVIKPALANGTWVIGDR    100
+                     |||:||||||||||||||||||||||||||||||||||||||||||||||
+5tmp.A            50 RSLLLDIKSVGDEVITDKAEVLMFYAARVQLVETVIKPALANGTWVIGDR     99
+
+P0A720           101 HDLSTQAYQGGGRGIDQHMLATLRDAVLGDFRPDLTLYLDVTPEVGLKRA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5tmp.A           100 HDLSTQAYQGGGRGIDQHMLATLRDAVLGDFRPDLTLYLDVTPEVGLKRA    149
+
+P0A720           151 RARGELDRIEQESFDFFNRTRARYLELAAQDKSIHTIDATQPLEAVMDAI    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5tmp.A           150 RARGELDRIEQESFDFFNRTRARYLELAAQDKSIHTIDATQPLEAVMDAI    199
+
+P0A720           201 RTTVTHWVKELDA    213
+                     |||||||||||  
+5tmp.A           200 RTTVTHWVKEL--    210
+
+
+#---------------------------------------
+#---------------------------------------

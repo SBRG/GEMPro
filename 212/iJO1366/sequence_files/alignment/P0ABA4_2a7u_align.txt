@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:52
+# Commandline: needle
+#    -outfile P0ABA4_2a7u_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0ABA4.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/2a7u.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0ABA4_2a7u_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0ABA4
+# 2: 2a7u.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 177
+# Identity:       3/177 ( 1.7%)
+# Similarity:    12/177 ( 6.8%)
+# Gaps:         155/177 (87.6%)
+# Score: 16.0
+# 
+#
+#=======================================
+
+P0ABA4             1 MSEFITVARPYAKAAFDFAVEHQSVERWQDMLAFAAEVTKNEQMAELLSG     50
+                                                                       
+2a7u.A             0 --------------------------------------------------      0
+
+P0ABA4            51 ALAPETLAESFIAVCGEQLDENGQNLIRVMAENGRLNALPDVLEQFIHLR    100
+                                                                       
+2a7u.A             0 --------------------------------------------------      0
+
+P0ABA4           101 AVSEATAEVDVISAAALSEQQLAKISAAMEKRLSRKVKLNCKIDKSVMAG    150
+                           .:::....:.|.:|::|:.:..                      
+2a7u.A             1 ------MQLNSTEISELIKQRIAQFNVV----------------------     22
+
+P0ABA4           151 VIIRAGDMVIDGSVRGRLERLADVLQS    177
+                                                
+2a7u.A            22 ---------------------------     22
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0ABA4
+# 2: 2a7u.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 177
+# Identity:     105/177 (59.3%)
+# Similarity:   105/177 (59.3%)
+# Gaps:          72/177 (40.7%)
+# Score: 523.0
+# 
+#
+#=======================================
+
+P0ABA4             1 MSEFITVARPYAKAAFDFAVEHQSVERWQDMLAFAAEVTKNEQMAELLSG     50
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+2a7u.B             1 -SEFITVARPYAKAAFDFAVEHQSVERWQDMLAFAAEVTKNEQMAELLSG     49
+
+P0ABA4            51 ALAPETLAESFIAVCGEQLDENGQNLIRVMAENGRLNALPDVLEQFIHLR    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2a7u.B            50 ALAPETLAESFIAVCGEQLDENGQNLIRVMAENGRLNALPDVLEQFIHLR     99
+
+P0ABA4           101 AVSEATAEVDVISAAALSEQQLAKISAAMEKRLSRKVKLNCKIDKSVMAG    150
+                     ||||||                                            
+2a7u.B           100 AVSEAT--------------------------------------------    105
+
+P0ABA4           151 VIIRAGDMVIDGSVRGRLERLADVLQS    177
+                                                
+2a7u.B           105 ---------------------------    105
+
+
+#---------------------------------------
+#---------------------------------------

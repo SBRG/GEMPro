@@ -1,0 +1,283 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:09:01
+# Commandline: needle
+#    -outfile P69739_3usc_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P69739.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/3usc.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P69739_3usc_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P69739
+# 2: 3usc.S
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 372
+# Identity:     265/372 (71.2%)
+# Similarity:   265/372 (71.2%)
+# Gaps:         107/372 (28.8%)
+# Score: 1453.0
+# 
+#
+#=======================================
+
+P69739             1 MNNEETFYQAMRRQGVTRRSFLKYCSLAATSLGLGAGMAPKIAWALENKP     50
+                                                                     ||
+3usc.S             1 ------------------------------------------------KP      2
+
+P69739            51 RIPVVWIHGLECTCCTESFIRSAHPLAKDVILSLISLDYDDTLMAAAGTQ    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3usc.S             3 RIPVVWIHGLECTCCTESFIRSAHPLAKDVILSLISLDYDDTLMAAAGTQ     52
+
+P69739           101 AEEVFEDIITQYNGKYILAVEGNPPLGEQGMFCISSGRPFIEKLKRAAAG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3usc.S            53 AEEVFEDIITQYNGKYILAVEGNPPLGEQGMFCISSGRPFIEKLKRAAAG    102
+
+P69739           151 ASAIIAWGTCASWGCVQAARPNPTQATPIDKVITDKPIIKVPGCPPIPDV    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3usc.S           103 ASAIIAWGTCASWGCVQAARPNPTQATPIDKVITDKPIIKVPGCPPIPDV    152
+
+P69739           201 MSAIITYMVTFDRLPDVDRMGRPLMFYGQRIHDKCYRRAHFDAGEFVQSW    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3usc.S           153 MSAIITYMVTFDRLPDVDRMGRPLMFYGQRIHDKCYRRAHFDAGEFVQSW    202
+
+P69739           251 DDDAARKGYCLYKMGCKGPTTYNACSSTRWNDGVSFPIQSGHGCLGCAEN    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3usc.S           203 DDDAARKGYCLYKMGCKGPTTYNACSSTRWNDGVSFPIQSGHGCLGCAEN    252
+
+P69739           301 GFWDRGSFYSRVVDIPQMGTHSTADTVGLTALGVVAAAVGVHAVASAVDQ    350
+                     |||||||||||||                                     
+3usc.S           253 GFWDRGSFYSRVV-------------------------------------    265
+
+P69739           351 RRRHNQQPTETEHQPGNEDKQA    372
+                                           
+3usc.S           265 ----------------------    265
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P69739
+# 2: 3usc.L
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 756
+# Identity:      64/756 ( 8.5%)
+# Similarity:    91/756 (12.0%)
+# Gaps:         559/756 (73.9%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+P69739             1 MNNEETFYQAMRRQGVTRRSFLKYCSLAATSLGLGAGMAPKIAWALENKP     50
+                                                                       
+3usc.L             0 --------------------------------------------------      0
+
+P69739            51 RIPVVWIHGLECTCCTESFIRSAHPLAKDVILSLISLDYDDTLMAAAGTQ    100
+                                                        |..| :|........
+3usc.L             1 -----------------------------------STQY-ETQGYTINNA     14
+
+P69739           101 AEEVFEDIITQYNGKYILAVEGNPPLGEQGMF--CISSGRPFIEKLKRAA    148
+                     ...:..|.||:..|.  :..|.|  :.:|.:.  .:|.|..| ..|:...
+3usc.L            15 GRRLVVDPITRIEGH--MRCEVN--INDQNVITNAVSCGTMF-RGLEIIL     59
+
+P69739           149 AGASAIIAW-------GTCASWGCVQAARPNPTQATPIDKVITDKPIIKV    191
+                     .|.....||       |.|..           ..|......|.|...|||
+3usc.L            60 QGRDPRDAWAFVERICGVCTG-----------VHALASVYAIEDAIGIKV     98
+
+P69739           192 P-GCPPIPDVMSAII---TYMVTFDRLPDVDRMGRPLMFYGQRIHDKCYR    237
+                     | ....|.::|.|.:   .::|.|.:|..:|                   
+3usc.L            99 PDNANIIRNIMLATLWCHDHLVHFYQLAGMD-------------------    129
+
+P69739           238 RAHFDAGEFVQSWDD--DA----ARKGYCLYKMGCKGPTTYNACSSTRW-    280
+                                 |.|  ||    .||            |:..|.|.:.| 
+3usc.L           130 ------------WIDVLDALKADPRK------------TSELAQSLSSWP    155
+
+P69739           281 --NDGVSFPIQS------GHGCLGCAENGFWDRGSFYSRVVDIPQMGTHS    322
+                       :.|..|.:|:      ..|.||...||:|..          ||.....
+3usc.L           156 KSSPGYFFDVQNRLKKFVEGGQLGIFRNGYWGH----------PQYKLPP    195
+
+P69739           323 TADTVG----LTALGVVAAAVGVHAVASAVDQRRRHNQQPTETEHQPGNE    368
+                     .|:.:|    |.||......|.:|||.                    |.:
+3usc.L           196 EANLMGFAHYLEALDFQREIVKIHAVF--------------------GGK    225
+
+P69739           369 DKQA----------------------------------------------    372
+                     :...                                              
+3usc.L           226 NPHPNWIVGGMPCAINIDESGAVGAVNMERLNLVQSIITRTADFINNVMI    275
+
+P69739           372 --------------------------------------------------    372
+                                                                       
+3usc.L           276 PDALAIGQFNKPWSEIGTGLSDKCVLSYGAFPDIANDFGEKSLLMPGGAV    325
+
+P69739           372 --------------------------------------------------    372
+                                                                       
+3usc.L           326 INGDFNNVLPVDLVDPQQVQEFVDHAWYRYPNDQVGRHPFDGITDPWYNP    375
+
+P69739           372 --------------------------------------------------    372
+                                                                       
+3usc.L           376 GDVKGSDTNIQQLNEQERYSWIKAPRWRGNAMEVGPLARTLIAYHKGDAA    425
+
+P69739           372 --------------------------------------------------    372
+                                                                       
+3usc.L           426 TVESVDRMMSALNLPLSGIQSTLGRILCRAHEAQWAAGKLQYFFDKLMTN    475
+
+P69739           372 --------------------------------------------------    372
+                                                                       
+3usc.L           476 LKNGNLATASTEKWEPATWPTECRGVGFTEAPRGALGHWAAIRDGKIDLY    525
+
+P69739           372 --------------------------------------------------    372
+                                                                       
+3usc.L           526 QCVVPTTWNASPRDPKGQIGAYEAALMNTKMAIPEQPLEILRTLHSFDPC    575
+
+P69739           372 ------    372
+                           
+3usc.L           576 LACSTH    581
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P69739
+# 2: 3usc.T
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 372
+# Identity:     265/372 (71.2%)
+# Similarity:   265/372 (71.2%)
+# Gaps:         107/372 (28.8%)
+# Score: 1453.0
+# 
+#
+#=======================================
+
+P69739             1 MNNEETFYQAMRRQGVTRRSFLKYCSLAATSLGLGAGMAPKIAWALENKP     50
+                                                                     ||
+3usc.T             1 ------------------------------------------------KP      2
+
+P69739            51 RIPVVWIHGLECTCCTESFIRSAHPLAKDVILSLISLDYDDTLMAAAGTQ    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3usc.T             3 RIPVVWIHGLECTCCTESFIRSAHPLAKDVILSLISLDYDDTLMAAAGTQ     52
+
+P69739           101 AEEVFEDIITQYNGKYILAVEGNPPLGEQGMFCISSGRPFIEKLKRAAAG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3usc.T            53 AEEVFEDIITQYNGKYILAVEGNPPLGEQGMFCISSGRPFIEKLKRAAAG    102
+
+P69739           151 ASAIIAWGTCASWGCVQAARPNPTQATPIDKVITDKPIIKVPGCPPIPDV    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3usc.T           103 ASAIIAWGTCASWGCVQAARPNPTQATPIDKVITDKPIIKVPGCPPIPDV    152
+
+P69739           201 MSAIITYMVTFDRLPDVDRMGRPLMFYGQRIHDKCYRRAHFDAGEFVQSW    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3usc.T           153 MSAIITYMVTFDRLPDVDRMGRPLMFYGQRIHDKCYRRAHFDAGEFVQSW    202
+
+P69739           251 DDDAARKGYCLYKMGCKGPTTYNACSSTRWNDGVSFPIQSGHGCLGCAEN    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3usc.T           203 DDDAARKGYCLYKMGCKGPTTYNACSSTRWNDGVSFPIQSGHGCLGCAEN    252
+
+P69739           301 GFWDRGSFYSRVVDIPQMGTHSTADTVGLTALGVVAAAVGVHAVASAVDQ    350
+                     |||||||||||||                                     
+3usc.T           253 GFWDRGSFYSRVV-------------------------------------    265
+
+P69739           351 RRRHNQQPTETEHQPGNEDKQA    372
+                                           
+3usc.T           265 ----------------------    265
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P69739
+# 2: 3usc.M
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 756
+# Identity:      64/756 ( 8.5%)
+# Similarity:    91/756 (12.0%)
+# Gaps:         559/756 (73.9%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+P69739             1 MNNEETFYQAMRRQGVTRRSFLKYCSLAATSLGLGAGMAPKIAWALENKP     50
+                                                                       
+3usc.M             0 --------------------------------------------------      0
+
+P69739            51 RIPVVWIHGLECTCCTESFIRSAHPLAKDVILSLISLDYDDTLMAAAGTQ    100
+                                                        |..| :|........
+3usc.M             1 -----------------------------------STQY-ETQGYTINNA     14
+
+P69739           101 AEEVFEDIITQYNGKYILAVEGNPPLGEQGMF--CISSGRPFIEKLKRAA    148
+                     ...:..|.||:..|.  :..|.|  :.:|.:.  .:|.|..| ..|:...
+3usc.M            15 GRRLVVDPITRIEGH--MRCEVN--INDQNVITNAVSCGTMF-RGLEIIL     59
+
+P69739           149 AGASAIIAW-------GTCASWGCVQAARPNPTQATPIDKVITDKPIIKV    191
+                     .|.....||       |.|..           ..|......|.|...|||
+3usc.M            60 QGRDPRDAWAFVERICGVCTG-----------VHALASVYAIEDAIGIKV     98
+
+P69739           192 P-GCPPIPDVMSAII---TYMVTFDRLPDVDRMGRPLMFYGQRIHDKCYR    237
+                     | ....|.::|.|.:   .::|.|.:|..:|                   
+3usc.M            99 PDNANIIRNIMLATLWCHDHLVHFYQLAGMD-------------------    129
+
+P69739           238 RAHFDAGEFVQSWDD--DA----ARKGYCLYKMGCKGPTTYNACSSTRW-    280
+                                 |.|  ||    .||            |:..|.|.:.| 
+3usc.M           130 ------------WIDVLDALKADPRK------------TSELAQSLSSWP    155
+
+P69739           281 --NDGVSFPIQS------GHGCLGCAENGFWDRGSFYSRVVDIPQMGTHS    322
+                       :.|..|.:|:      ..|.||...||:|..          ||.....
+3usc.M           156 KSSPGYFFDVQNRLKKFVEGGQLGIFRNGYWGH----------PQYKLPP    195
+
+P69739           323 TADTVG----LTALGVVAAAVGVHAVASAVDQRRRHNQQPTETEHQPGNE    368
+                     .|:.:|    |.||......|.:|||.                    |.:
+3usc.M           196 EANLMGFAHYLEALDFQREIVKIHAVF--------------------GGK    225
+
+P69739           369 DKQA----------------------------------------------    372
+                     :...                                              
+3usc.M           226 NPHPNWIVGGMPCAINIDESGAVGAVNMERLNLVQSIITRTADFINNVMI    275
+
+P69739           372 --------------------------------------------------    372
+                                                                       
+3usc.M           276 PDALAIGQFNKPWSEIGTGLSDKCVLSYGAFPDIANDFGEKSLLMPGGAV    325
+
+P69739           372 --------------------------------------------------    372
+                                                                       
+3usc.M           326 INGDFNNVLPVDLVDPQQVQEFVDHAWYRYPNDQVGRHPFDGITDPWYNP    375
+
+P69739           372 --------------------------------------------------    372
+                                                                       
+3usc.M           376 GDVKGSDTNIQQLNEQERYSWIKAPRWRGNAMEVGPLARTLIAYHKGDAA    425
+
+P69739           372 --------------------------------------------------    372
+                                                                       
+3usc.M           426 TVESVDRMMSALNLPLSGIQSTLGRILCRAHEAQWAAGKLQYFFDKLMTN    475
+
+P69739           372 --------------------------------------------------    372
+                                                                       
+3usc.M           476 LKNGNLATASTEKWEPATWPTECRGVGFTEAPRGALGHWAAIRDGKIDLY    525
+
+P69739           372 --------------------------------------------------    372
+                                                                       
+3usc.M           526 QCVVPTTWNASPRDPKGQIGAYEAALMNTKMAIPEQPLEILRTLHSFDPC    575
+
+P69739           372 ------    372
+                           
+3usc.M           576 LACSTH    581
+
+
+#---------------------------------------
+#---------------------------------------

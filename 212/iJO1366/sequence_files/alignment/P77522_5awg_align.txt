@@ -1,0 +1,527 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:09:10
+# Commandline: needle
+#    -outfile P77522_5awg_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P77522.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/5awg.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P77522_5awg_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P77522
+# 2: 5awg.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 495
+# Identity:     380/495 (76.8%)
+# Similarity:   380/495 (76.8%)
+# Gaps:          34/495 ( 6.9%)
+# Score: 1934.0
+# 
+#
+#=======================================
+
+P77522             1 MSRNTEATDDVKTWTGGPLNYKEGFFTQLATDELAKGINEEVVRAISAKR     50
+                                                      |||||||||||||||||
+5awg.A             1 ---------------------------------LAKGINEEVVRAISAKR     17
+
+P77522            51 NEPEWMLEFRLNAYRAWLEMEEPHWLKAHYDKLNYQDYSYYSAPSCGNCD    100
+                     |||||||||||||||||||||||||.........................
+5awg.A            18 NEPEWMLEFRLNAYRAWLEMEEPHWXXXXXXXXXXXXXXXXXXXXXXXXX     67
+
+P77522           101 DTCASEPGAVQQTGANAFLSKEVEAAFEQLGVPVREGKEVAVDAIFDSVS    150
+                     ..................................................
+5awg.A            68 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    117
+
+P77522           151 VATTYREKLAEQGIIFCSFGEAIHDHPELVRKYLGTVVPGNDNFFAALNA    200
+                     ......||||||||||||||||||||||||||||||||||||||||||||
+5awg.A           118 XXXXXXEKLAEQGIIFCSFGEAIHDHPELVRKYLGTVVPGNDNFFAALNA    167
+
+P77522           201 AVASDGTFIYVPKGVRCPMELSTYFRINAEKTGQFERTILVADEDSYVSY    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5awg.A           168 AVASDGTFIYVPKGVRCPMELSTYFRINAEKTGQFERTILVADEDSYVSY    217
+
+P77522           251 IEGCSAPVRDSYQLHAAVVEVIIHKNAEVKYSTVQNWFPGDNNTGGILNF    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5awg.A           218 IEGCSAPVRDSYQLHAAVVEVIIHKNAEVKYSTVQNWFPGDNNTGGILNF    267
+
+P77522           301 VTKRALCEGENSKMSWTQSETGSAITWKYPSCILRGDNSIGEFYSVALTS    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5awg.A           268 VTKRALCEGENSKMSWTQSETGSAITWKYPSCILRGDNSIGEFYSVALTS    317
+
+P77522           351 GHQQADTGTKMIHIGKNTKSTIISKGISAGHSQNSYRGLVKIMPTATNAR    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5awg.A           318 GHQQADTGTKMIHIGKNTKSTIISKGISAGHSQNSYRGLVKIMPTATNAR    367
+
+P77522           401 NFTQCDSMLIGANCGAHTFPYVECRNNSAQLEHEATTSRIGEDQLFYCLQ    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5awg.A           368 NFTQCDSMLIGANCGAHTFPYVECRNNSAQLEHEATTSRIGEDQLFYCLQ    417
+
+P77522           451 RGISEEDAISMIVNGFCKDVFSELPLEFAVEAQKLLAISLEHSVG    495
+                     |||||||||||||||||||||||||||||||||||||||||||| 
+5awg.A           418 RGISEEDAISMIVNGFCKDVFSELPLEFAVEAQKLLAISLEHSV-    461
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P77522
+# 2: 5awg.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 508
+# Identity:      85/508 (16.7%)
+# Similarity:   149/508 (29.3%)
+# Gaps:         160/508 (31.5%)
+# Score: 143.5
+# 
+#
+#=======================================
+
+P77522             1 MSRNTEATDDVKTWTGGPLNYKEGFFTQLATDELAKGINEEVVRAISAKR     50
+                                                                       
+5awg.B             0 --------------------------------------------------      0
+
+P77522            51 NEPEWMLEFRLNAYRAWLEMEEPHWLKAHYDKLNYQDYSYYSAPSCGNCD    100
+                                                                       
+5awg.B             0 --------------------------------------------------      0
+
+P77522           101 DTCASEPGAVQQTGANAFLSKEVEAAFEQLGVPVREGKEVAVDAIFDSVS    150
+                                     .|:|...|.:.:|     |:...:.:|:: ..|.
+5awg.B             1 ----------------QFVSIAGEISPQQ-----RDALALTLDSV-RLVF     28
+
+P77522           151 VATTYREKL--AEQGIIFCSFGEAIHDH----PELVRKYLGTVVPGNDNF    194
+                     |...|...|  |.:|   ..:..:|:|.    |:.::.          ..
+5awg.B            29 VDGRYVPALSDATEG---SGYEVSINDDRQGLPDAIQA----------EV     65
+
+P77522           195 FAALNAAVASDGTFIYVPKGVRCPMELSTYFRINAEKTGQFERTILVADE    244
+                     |..|..::|...|.|.|.:|.| |.:......|.....|:...|   |..
+5awg.B            66 FLHLTESLAQSVTHIAVKRGQR-PAKPLLLMHITQGVAGEEVNT---AHY    111
+
+P77522           245 DSYVSYIEGCSAPV-------RDSYQLHAAVVEVIIHKNAEVKYSTVQNW    287
+                     ..::...||..|.|       .|:.....|...:.:..||.:::..:...
+5awg.B           112 RHHLDLAEGAEATVIEHFVSLNDARHFTGARFTINVAANAHLQHIKLAFE    161
+
+P77522           288 FPGDNNTGGILNFVTKRALCEGENSKMSWTQSETGSAITWKYPSCILRGD    337
+                     .|       :.:......|...|::.........|.|:.....|..|.|:
+5awg.B           162 NP-------LSHHFAHNDLLLAEDATAFSHSFLLGGAVLRHNTSTQLNGE    204
+
+P77522           338 NSIGEFYSVALTSGHQQADTGTKMIHIGKNTKSTIISKGISAGHSQNSYR    387
+                     ||.....|:|:...::..||.|.:.|......|..:.|.|.:...:..:.
+5awg.B           205 NSTLRINSLAMPVKNEVCDTRTWLEHNKGFCNSRQLHKTIVSDKGRAVFN    254
+
+P77522           388 GLVKIMPTATNARNFTQCDSMLIGANCGAHTFPYVECRNNSAQLEHEATT    437
+                     ||:.:...|.........:::|:|......|.|.:|...:..:..|.||.
+5awg.B           255 GLINVAQHAIKTDGQMTNNNLLMGKLAEVDTKPQLEIYADDVKCSHGATV    304
+
+P77522           438 SRIGEDQLFYCLQRGISEEDAISMIVNGFCKDVFSELPLEFAVEAQKLLA    487
+                     .||.::|:||...|||:::||..||:..|..::...|..| .::.|.|..
+5awg.B           305 GRIDDEQIFYLRSRGINQQDAQQMIIYAFAAELTEALRDE-GLKQQVLAR    353
+
+P77522           488 ISLEHSVG    495
+                     |......|
+5awg.B           354 IGQRLPGG    361
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P77522
+# 2: 5awg.C
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 564
+# Identity:      42/564 ( 7.4%)
+# Similarity:    78/564 (13.8%)
+# Gaps:         396/564 (70.2%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+P77522             1 ------------------------------------------MSRNTEAT      8
+                                                               :|......
+5awg.C             1 MLSIKDLHVSVEDKAILRGLSLDVHPGEVHAIMGPNGSGKSTLSATLAGR     50
+
+P77522             9 DDVKTWTGGPLNYKEGFFTQLATDELAKGINEEVVRAISAKRNEP----E     54
+                     :|.:. |||.:.:|......|:.::.|   .|.:..|.......|    :
+5awg.C            51 EDYEV-TGGTVEFKGKDLLALSPEDRA---GEGIFMAFQYPVEIPGVSNQ     96
+
+P77522            55 WMLEFRLNAYRAWLEMEEPHWLKAHYDKLNYQDYSYYSAPSCGNCDDTCA    104
+                     :.|:..|||.|::...|.       .|:.::||............:|   
+5awg.C            97 FFLQTALNAVRSYRGQET-------LDRFDFQDLMEEKIALLKMPED---    136
+
+P77522           105 SEPGAVQQTGANAFLSKEVEAAFE----------QLGVPVRE--------    136
+                                  .|::.|...|.          |:.|...|        
+5awg.C           137 -------------LLTRSVNVGFSGGEKKRNDILQMAVLEPELCILDESD    173
+
+P77522           137 -GKEV-AVDAIFDSVSVATTYREKLAEQGIIFCSFGEAIHDH--PELVR-    181
+                      |.:: |:..:.|.|:   :.|:  .::..|..:..:.|.|:  |:.|. 
+5awg.C           174 SGLDIDALKVVADGVN---SLRD--GKRSFIIVTHYQRILDYIKPDYVHV    218
+
+P77522           182 KYLGTVVPGNDNFFAALNAAVASDGTFIYVPKGVRCPMELSTYFRINAEK    231
+                     .|.|.:|...|  |..:....                             
+5awg.C           219 LYQGRIVKSGD--FTLVKQLE-----------------------------    237
+
+P77522           232 TGQFERTILVADEDSYVSYIEGCSAPVRDSYQLHAAVVEVIIHKNAEVKY    281
+                                                                       
+5awg.C           237 --------------------------------------------------    237
+
+P77522           282 STVQNWFPGDNNTGGILNFVTKRALCEGENSKMSWTQSETGSAITWKYPS    331
+                                                                       
+5awg.C           237 --------------------------------------------------    237
+
+P77522           332 CILRGDNSIGEFYSVALTSGHQQADTGTKMIHIGKNTKSTIISKGISAGH    381
+                                                                       
+5awg.C           237 --------------------------------------------------    237
+
+P77522           382 SQNSYRGLVKIMPTATNARNFTQCDSMLIGANCGAHTFPYVECRNNSAQL    431
+                                                                       
+5awg.C           237 --------------------------------------------------    237
+
+P77522           432 EHEATTSRIGEDQLFYCLQRGISEEDAISMIVNGFCKDVFSELPLEFAVE    481
+                                                                       
+5awg.C           237 --------------------------------------------------    237
+
+P77522           482 AQKLLAISLEHSVG    495
+                                   
+5awg.C           237 --------------    237
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P77522
+# 2: 5awg.D
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 564
+# Identity:      42/564 ( 7.4%)
+# Similarity:    78/564 (13.8%)
+# Gaps:         398/564 (70.6%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+P77522             1 ------------------------------------------MSRNTEAT      8
+                                                               :|......
+5awg.D             1 MLSIKDLHVSVEDKAILRGLSLDVHPGEVHAIMGPNGSGKSTLSATLAGR     50
+
+P77522             9 DDVKTWTGGPLNYKEGFFTQLATDELAKGINEEVVRAISAKRNEP----E     54
+                     :|.:. |||.:.:|......|:.::.|   .|.:..|.......|    :
+5awg.D            51 EDYEV-TGGTVEFKGKDLLALSPEDRA---GEGIFMAFQYPVEIPGVSNQ     96
+
+P77522            55 WMLEFRLNAYRAWLEMEEPHWLKAHYDKLNYQDYSYYSAPSCGNCDDTCA    104
+                     :.|:..|||.|::...|.       .|:.::||............:|   
+5awg.D            97 FFLQTALNAVRSYRGQET-------LDRFDFQDLMEEKIALLKMPED---    136
+
+P77522           105 SEPGAVQQTGANAFLSKEVEAAFE----------QLGVPVRE--------    136
+                                  .|::.|...|.          |:.|...|        
+5awg.D           137 -------------LLTRSVNVGFSGGEKKRNDILQMAVLEPELCILDESD    173
+
+P77522           137 -GKEV-AVDAIFDSVSVATTYREKLAEQGIIFCSFGEAIHDH--PELVR-    181
+                      |.:: |:..:.|.|:   :.|:  .::..|..:..:.|.|:  |:.|. 
+5awg.D           174 SGLDIDALKVVADGVN---SLRD--GKRSFIIVTHYQRILDYIKPDYVHV    218
+
+P77522           182 KYLGTVVPGNDNFFAALNAAVASDGTFIYVPKGVRCPMELSTYFRINAEK    231
+                     .|.|.:|...|  |..:..                               
+5awg.D           219 LYQGRIVKSGD--FTLVKQ-------------------------------    235
+
+P77522           232 TGQFERTILVADEDSYVSYIEGCSAPVRDSYQLHAAVVEVIIHKNAEVKY    281
+                                                                       
+5awg.D           235 --------------------------------------------------    235
+
+P77522           282 STVQNWFPGDNNTGGILNFVTKRALCEGENSKMSWTQSETGSAITWKYPS    331
+                                                                       
+5awg.D           235 --------------------------------------------------    235
+
+P77522           332 CILRGDNSIGEFYSVALTSGHQQADTGTKMIHIGKNTKSTIISKGISAGH    381
+                                                                       
+5awg.D           235 --------------------------------------------------    235
+
+P77522           382 SQNSYRGLVKIMPTATNARNFTQCDSMLIGANCGAHTFPYVECRNNSAQL    431
+                                                                       
+5awg.D           235 --------------------------------------------------    235
+
+P77522           432 EHEATTSRIGEDQLFYCLQRGISEEDAISMIVNGFCKDVFSELPLEFAVE    481
+                                                                       
+5awg.D           235 --------------------------------------------------    235
+
+P77522           482 AQKLLAISLEHSVG    495
+                                   
+5awg.D           235 --------------    235
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P77522
+# 2: 5awg.E
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 495
+# Identity:     372/495 (75.2%)
+# Similarity:   372/495 (75.2%)
+# Gaps:          41/495 ( 8.3%)
+# Score: 1893.0
+# 
+#
+#=======================================
+
+P77522             1 MSRNTEATDDVKTWTGGPLNYKEGFFTQLATDELAKGINEEVVRAISAKR     50
+                                                          |||||||||||||
+5awg.E             1 -------------------------------------INEEVVRAISAKR     13
+
+P77522            51 NEPEWMLEFRLNAYRAWLEMEEPHWLKAHYDKLNYQDYSYYSAPSCGNCD    100
+                     |||||||||||||||||||||||||.........................
+5awg.E            14 NEPEWMLEFRLNAYRAWLEMEEPHWXXXXXXXXXXXXXXXXXXXXXXXXX     63
+
+P77522           101 DTCASEPGAVQQTGANAFLSKEVEAAFEQLGVPVREGKEVAVDAIFDSVS    150
+                     ..................................................
+5awg.E            64 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    113
+
+P77522           151 VATTYREKLAEQGIIFCSFGEAIHDHPELVRKYLGTVVPGNDNFFAALNA    200
+                     .......|||||||||||||||||||||||||||||||||||||||||||
+5awg.E           114 XXXXXXXKLAEQGIIFCSFGEAIHDHPELVRKYLGTVVPGNDNFFAALNA    163
+
+P77522           201 AVASDGTFIYVPKGVRCPMELSTYFRINAEKTGQFERTILVADEDSYVSY    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5awg.E           164 AVASDGTFIYVPKGVRCPMELSTYFRINAEKTGQFERTILVADEDSYVSY    213
+
+P77522           251 IEGCSAPVRDSYQLHAAVVEVIIHKNAEVKYSTVQNWFPGDNNTGGILNF    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5awg.E           214 IEGCSAPVRDSYQLHAAVVEVIIHKNAEVKYSTVQNWFPGDNNTGGILNF    263
+
+P77522           301 VTKRALCEGENSKMSWTQSETGSAITWKYPSCILRGDNSIGEFYSVALTS    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5awg.E           264 VTKRALCEGENSKMSWTQSETGSAITWKYPSCILRGDNSIGEFYSVALTS    313
+
+P77522           351 GHQQADTGTKMIHIGKNTKSTIISKGISAGHSQNSYRGLVKIMPTATNAR    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5awg.E           314 GHQQADTGTKMIHIGKNTKSTIISKGISAGHSQNSYRGLVKIMPTATNAR    363
+
+P77522           401 NFTQCDSMLIGANCGAHTFPYVECRNNSAQLEHEATTSRIGEDQLFYCLQ    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5awg.E           364 NFTQCDSMLIGANCGAHTFPYVECRNNSAQLEHEATTSRIGEDQLFYCLQ    413
+
+P77522           451 RGISEEDAISMIVNGFCKDVFSELPLEFAVEAQKLLAISLEHSVG    495
+                     |||||||||||||||||||||||||||||||||||||||||    
+5awg.E           414 RGISEEDAISMIVNGFCKDVFSELPLEFAVEAQKLLAISLE----    454
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P77522
+# 2: 5awg.F
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 506
+# Identity:      85/506 (16.8%)
+# Similarity:   146/506 (28.9%)
+# Gaps:         162/506 (32.0%)
+# Score: 143.5
+# 
+#
+#=======================================
+
+P77522             1 MSRNTEATDDVKTWTGGPLNYKEGFFTQLATDELAKGINEEVVRAISAKR     50
+                                                                       
+5awg.F             0 --------------------------------------------------      0
+
+P77522            51 NEPEWMLEFRLNAYRAWLEMEEPHWLKAHYDKLNYQDYSYYSAPSCGNCD    100
+                                                                       
+5awg.F             0 --------------------------------------------------      0
+
+P77522           101 DTCASEPGAV--QQTGANAFLSKEVEAAFEQLGVPVREGKEVAVDAIFDS    148
+                            |.:  ||..|.|.....|...|.       :|:  .|.|:.|:
+5awg.F             1 -------GEISPQQRDALALTLDSVRLVFV-------DGR--YVPALSDA     34
+
+P77522           149 VSVATTYREKLAE--QGIIFCSFGEAIHDHPELVRKYLGTVVPGNDNFFA    196
+                     .. .:.|...:.:  ||:            |:.::.          ..|.
+5awg.F            35 TE-GSGYEVSINDDRQGL------------PDAIQA----------EVFL     61
+
+P77522           197 ALNAAVASDGTFIYVPKGVRCPMELSTYFRINAEKTGQFERTILVADEDS    246
+                     .|..::|...|.|.|.:|.| |.:......|.....|:...|   |....
+5awg.F            62 HLTESLAQSVTHIAVKRGQR-PAKPLLLMHITQGVAGEEVNT---AHYRH    107
+
+P77522           247 YVSYIEGCSAPV-------RDSYQLHAAVVEVIIHKNAEVKYSTVQNWFP    289
+                     ::...||..|.|       .|:.....|...:.:..||.:::..:....|
+5awg.F           108 HLDLAEGAEATVIEHFVSLNDARHFTGARFTINVAANAHLQHIKLAFENP    157
+
+P77522           290 GDNNTGGILNFVTKRALCEGENSKMSWTQSETGSAITWKYPSCILRGDNS    339
+                            :.:......|...|::.........|.|:.....|..|.|:||
+5awg.F           158 -------LSHHFAHNDLLLAEDATAFSHSFLLGGAVLRHNTSTQLNGENS    200
+
+P77522           340 IGEFYSVALTSGHQQADTGTKMIHIGKNTKSTIISKGISAGHSQNSYRGL    389
+                     .....|:|:...::..||.|.:.|......|..:.|.|.:...:..:.||
+5awg.F           201 TLRINSLAMPVKNEVCDTRTWLEHNKGFCNSRQLHKTIVSDKGRAVFNGL    250
+
+P77522           390 VKIMPTATNARNFTQCDSMLIGANCGAHTFPYVECRNNSAQLEHEATTSR    439
+                     :.:...|.........:::|:|......|.|.:|...:..:..|.||..|
+5awg.F           251 INVAQHAIKTDGQMTNNNLLMGKLAEVDTKPQLEIYADDVKCSHGATVGR    300
+
+P77522           440 IGEDQLFYCLQRGISEEDAISMIVNGFCKDVFSELPLEFAVEAQKLLAIS    489
+                     |.::|:||...|||:::||..||:..|..::...|..| .::.|.|..|.
+5awg.F           301 IDDEQIFYLRSRGINQQDAQQMIIYAFAAELTEALRDE-GLKQQVLARIG    349
+
+P77522           490 LEHSVG    495
+                     .....|
+5awg.F           350 QRLPGG    355
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P77522
+# 2: 5awg.G
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 564
+# Identity:      42/564 ( 7.4%)
+# Similarity:    78/564 (13.8%)
+# Gaps:         394/564 (69.9%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+P77522             1 ------------------------------------------MSRNTEAT      8
+                                                               :|......
+5awg.G             1 MLSIKDLHVSVEDKAILRGLSLDVHPGEVHAIMGPNGSGKSTLSATLAGR     50
+
+P77522             9 DDVKTWTGGPLNYKEGFFTQLATDELAKGINEEVVRAISAKRNEP----E     54
+                     :|.:. |||.:.:|......|:.::.|   .|.:..|.......|    :
+5awg.G            51 EDYEV-TGGTVEFKGKDLLALSPEDRA---GEGIFMAFQYPVEIPGVSNQ     96
+
+P77522            55 WMLEFRLNAYRAWLEMEEPHWLKAHYDKLNYQDYSYYSAPSCGNCDDTCA    104
+                     :.|:..|||.|::...|.       .|:.::||............:|   
+5awg.G            97 FFLQTALNAVRSYRGQET-------LDRFDFQDLMEEKIALLKMPED---    136
+
+P77522           105 SEPGAVQQTGANAFLSKEVEAAFE----------QLGVPVRE--------    136
+                                  .|::.|...|.          |:.|...|        
+5awg.G           137 -------------LLTRSVNVGFSGGEKKRNDILQMAVLEPELCILDESD    173
+
+P77522           137 -GKEV-AVDAIFDSVSVATTYREKLAEQGIIFCSFGEAIHDH--PELVR-    181
+                      |.:: |:..:.|.|:   :.|:  .::..|..:..:.|.|:  |:.|. 
+5awg.G           174 SGLDIDALKVVADGVN---SLRD--GKRSFIIVTHYQRILDYIKPDYVHV    218
+
+P77522           182 KYLGTVVPGNDNFFAALNAAVASDGTFIYVPKGVRCPMELSTYFRINAEK    231
+                     .|.|.:|...|  |..:......                           
+5awg.G           219 LYQGRIVKSGD--FTLVKQLEEQ---------------------------    239
+
+P77522           232 TGQFERTILVADEDSYVSYIEGCSAPVRDSYQLHAAVVEVIIHKNAEVKY    281
+                                                                       
+5awg.G           239 --------------------------------------------------    239
+
+P77522           282 STVQNWFPGDNNTGGILNFVTKRALCEGENSKMSWTQSETGSAITWKYPS    331
+                                                                       
+5awg.G           239 --------------------------------------------------    239
+
+P77522           332 CILRGDNSIGEFYSVALTSGHQQADTGTKMIHIGKNTKSTIISKGISAGH    381
+                                                                       
+5awg.G           239 --------------------------------------------------    239
+
+P77522           382 SQNSYRGLVKIMPTATNARNFTQCDSMLIGANCGAHTFPYVECRNNSAQL    431
+                                                                       
+5awg.G           239 --------------------------------------------------    239
+
+P77522           432 EHEATTSRIGEDQLFYCLQRGISEEDAISMIVNGFCKDVFSELPLEFAVE    481
+                                                                       
+5awg.G           239 --------------------------------------------------    239
+
+P77522           482 AQKLLAISLEHSVG    495
+                                   
+5awg.G           239 --------------    239
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P77522
+# 2: 5awg.H
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 564
+# Identity:      42/564 ( 7.4%)
+# Similarity:    78/564 (13.8%)
+# Gaps:         397/564 (70.4%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+P77522             1 ------------------------------------------MSRNTEAT      8
+                                                               :|......
+5awg.H             1 MLSIKDLHVSVEDKAILRGLSLDVHPGEVHAIMGPNGSGKSTLSATLAGR     50
+
+P77522             9 DDVKTWTGGPLNYKEGFFTQLATDELAKGINEEVVRAISAKRNEP----E     54
+                     :|.:. |||.:.:|......|:.::.|   .|.:..|.......|    :
+5awg.H            51 EDYEV-TGGTVEFKGKDLLALSPEDRA---GEGIFMAFQYPVEIPGVSNQ     96
+
+P77522            55 WMLEFRLNAYRAWLEMEEPHWLKAHYDKLNYQDYSYYSAPSCGNCDDTCA    104
+                     :.|:..|||.|::...|.       .|:.::||............:|   
+5awg.H            97 FFLQTALNAVRSYRGQET-------LDRFDFQDLMEEKIALLKMPED---    136
+
+P77522           105 SEPGAVQQTGANAFLSKEVEAAFE----------QLGVPVRE--------    136
+                                  .|::.|...|.          |:.|...|        
+5awg.H           137 -------------LLTRSVNVGFSGGEKKRNDILQMAVLEPELCILDESD    173
+
+P77522           137 -GKEV-AVDAIFDSVSVATTYREKLAEQGIIFCSFGEAIHDH--PELVR-    181
+                      |.:: |:..:.|.|:   :.|:  .::..|..:..:.|.|:  |:.|. 
+5awg.H           174 SGLDIDALKVVADGVN---SLRD--GKRSFIIVTHYQRILDYIKPDYVHV    218
+
+P77522           182 KYLGTVVPGNDNFFAALNAAVASDGTFIYVPKGVRCPMELSTYFRINAEK    231
+                     .|.|.:|...|  |..:...                              
+5awg.H           219 LYQGRIVKSGD--FTLVKQL------------------------------    236
+
+P77522           232 TGQFERTILVADEDSYVSYIEGCSAPVRDSYQLHAAVVEVIIHKNAEVKY    281
+                                                                       
+5awg.H           236 --------------------------------------------------    236
+
+P77522           282 STVQNWFPGDNNTGGILNFVTKRALCEGENSKMSWTQSETGSAITWKYPS    331
+                                                                       
+5awg.H           236 --------------------------------------------------    236
+
+P77522           332 CILRGDNSIGEFYSVALTSGHQQADTGTKMIHIGKNTKSTIISKGISAGH    381
+                                                                       
+5awg.H           236 --------------------------------------------------    236
+
+P77522           382 SQNSYRGLVKIMPTATNARNFTQCDSMLIGANCGAHTFPYVECRNNSAQL    431
+                                                                       
+5awg.H           236 --------------------------------------------------    236
+
+P77522           432 EHEATTSRIGEDQLFYCLQRGISEEDAISMIVNGFCKDVFSELPLEFAVE    481
+                                                                       
+5awg.H           236 --------------------------------------------------    236
+
+P77522           482 AQKLLAISLEHSVG    495
+                                   
+5awg.H           236 --------------    236
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:53
+# Commandline: needle
+#    -outfile P0ABJ1_1cyw_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0ABJ1.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1cyw.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0ABJ1_1cyw_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0ABJ1
+# 2: 1cyw.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 315
+# Identity:     159/315 (50.5%)
+# Similarity:   159/315 (50.5%)
+# Gaps:         156/315 (49.5%)
+# Score: 831.0
+# 
+#
+#=======================================
+
+P0ABJ1             1 MRLRKYNKSLGWLSLFAGTVLLSGCNSALLDPKGQIGLEQRSLILTAFGL     50
+                                                                       
+1cyw.A             0 --------------------------------------------------      0
+
+P0ABJ1            51 MLIVVIPAILMAVGFAWKYRASNKDAKYSPNWSHSNKVEAVVWTVPILII    100
+                                                                       
+1cyw.A             0 --------------------------------------------------      0
+
+P0ABJ1           101 IFLAVLTWKTTHALEPSKPLAHDEKPITIEVVSMDWKWFFIYPEQGIATV    150
+                                             ||||||||||||||||||||||||||
+1cyw.A             1 ------------------------KPITIEVVSMDWKWFFIYPEQGIATV     26
+
+P0ABJ1           151 NEIAFPANTPVYFKVTSNSVMNSFFIPRLGSQIYAMAGMQTRLHLIANEP    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1cyw.A            27 NEIAFPANTPVYFKVTSNSVMNSFFIPRLGSQIYAMAGMQTRLHLIANEP     76
+
+P0ABJ1           201 GTYDGISASYSGPGFSGMKFKAIATPDRAAFDQWVAKAKQSPNTMSDMAA    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1cyw.A            77 GTYDGISASYSGPGFSGMKFKAIATPDRAAFDQWVAKAKQSPNTMSDMAA    126
+
+P0ABJ1           251 FEKLAAPSEYNQVEYFSNVKPDLFADVINKFMAHGKSMDMTQPEGEHSAH    300
+                     |||||||||||||||||||||||||||||||||                 
+1cyw.A           127 FEKLAAPSEYNQVEYFSNVKPDLFADVINKFMA-----------------    159
+
+P0ABJ1           301 EGMEGMDMSHAESAH    315
+                                    
+1cyw.A           159 ---------------    159
+
+
+#---------------------------------------
+#---------------------------------------

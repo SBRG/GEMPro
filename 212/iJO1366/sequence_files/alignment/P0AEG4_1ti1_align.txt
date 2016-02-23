@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:08:03
+# Commandline: needle
+#    -outfile P0AEG4_1ti1_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0AEG4.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1ti1.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0AEG4_1ti1_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0AEG4
+# 2: 1ti1.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 208
+# Identity:     185/208 (88.9%)
+# Similarity:   185/208 (88.9%)
+# Gaps:          22/208 (10.6%)
+# Score: 961.0
+# 
+#
+#=======================================
+
+P0AEG4             1 MKKIWLALAGLVLAFSASAAQYEDGKQYTTLEKPVAGAPQVLEFFSFFCP     50
+                                          |||||||||||||||||||||||||||||
+1ti1.A             1 ---------------------YEDGKQYTTLEKPVAGAPQVLEFFSFFCP     29
+
+P0AEG4            51 HCYQFEEVLHISDNVKKKLPEGVKMTKYHVNFMGGDLGKDLTQAWAVAMA    100
+                     |.||||||||||||||||||||||||||||||||||||||||||||||||
+1ti1.A            30 HAYQFEEVLHISDNVKKKLPEGVKMTKYHVNFMGGDLGKDLTQAWAVAMA     79
+
+P0AEG4           101 LGVEDKVTVPLFEGVQKTQTIRSASDIRDVFINAGIKGEEYDAAWNSFVV    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1ti1.A            80 LGVEDKVTVPLFEGVQKTQTIRSASDIRDVFINAGIKGEEYDAAWNSFVV    129
+
+P0AEG4           151 KSLVAQQEKAAADVQLRGVPAMFVNGKYQLNPQGMDTSNMDVFVQQYADT    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1ti1.A           130 KSLVAQQEKAAADVQLRGVPAMFVNGKYQLNPQGMDTSNMDVFVQQYADT    179
+
+P0AEG4           201 VKYLSEKK    208
+                     ||||||| 
+1ti1.A           180 VKYLSEK-    186
+
+
+#---------------------------------------
+#---------------------------------------

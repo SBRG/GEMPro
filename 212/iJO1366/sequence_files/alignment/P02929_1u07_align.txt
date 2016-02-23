@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:04
+# Commandline: needle
+#    -outfile P02929_1u07_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P02929.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1u07.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P02929_1u07_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P02929
+# 2: 1u07.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 239
+# Identity:      90/239 (37.7%)
+# Similarity:    90/239 (37.7%)
+# Gaps:         149/239 (62.3%)
+# Score: 463.0
+# 
+#
+#=======================================
+
+P02929             1 MTLDLPRRFPWPTLLSVCIHGAVVAGLLYTSVHQVIELPAPAQPISVTMV     50
+                                                                       
+1u07.A             0 --------------------------------------------------      0
+
+P02929            51 TPADLEPPQAVQPPPEPVVEPEPEPEPIPEPPKEAPVVIEKPKPKPKPKP    100
+                                                                       
+1u07.A             0 --------------------------------------------------      0
+
+P02929           101 KPVKKVQEQPKRDVKPVESRPASPFENTAPARLTSSTATAATSKPVTSVA    150
+                                                                      |
+1u07.A             1 -------------------------------------------------A      1
+
+P02929           151 SGPRALSRNQPQYPARAQALRIEGQVKVKFDVTPDGRVDNVQILSAKPAN    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1u07.A             2 SGPRALSRNQPQYPARAQALRIEGQVKVKFDVTPDGRVDNVQILSAKPAN     51
+
+P02929           201 MFEREVKNAMRRWRYEPGKPGSGIVVNILFKINGTTEIQ    239
+                     |||||||||||||||||||||||||||||||||||||||
+1u07.A            52 MFEREVKNAMRRWRYEPGKPGSGIVVNILFKINGTTEIQ     90
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P02929
+# 2: 1u07.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 239
+# Identity:      88/239 (36.8%)
+# Similarity:    88/239 (36.8%)
+# Gaps:         151/239 (63.2%)
+# Score: 455.0
+# 
+#
+#=======================================
+
+P02929             1 MTLDLPRRFPWPTLLSVCIHGAVVAGLLYTSVHQVIELPAPAQPISVTMV     50
+                                                                       
+1u07.B             0 --------------------------------------------------      0
+
+P02929            51 TPADLEPPQAVQPPPEPVVEPEPEPEPIPEPPKEAPVVIEKPKPKPKPKP    100
+                                                                       
+1u07.B             0 --------------------------------------------------      0
+
+P02929           101 KPVKKVQEQPKRDVKPVESRPASPFENTAPARLTSSTATAATSKPVTSVA    150
+                                                                       
+1u07.B             0 --------------------------------------------------      0
+
+P02929           151 SGPRALSRNQPQYPARAQALRIEGQVKVKFDVTPDGRVDNVQILSAKPAN    200
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+1u07.B             1 -GPRALSRNQPQYPARAQALRIEGQVKVKFDVTPDGRVDNVQILSAKPAN     49
+
+P02929           201 MFEREVKNAMRRWRYEPGKPGSGIVVNILFKINGTTEIQ    239
+                     |||||||||||||||||||||||||||||||||||||||
+1u07.B            50 MFEREVKNAMRRWRYEPGKPGSGIVVNILFKINGTTEIQ     88
+
+
+#---------------------------------------
+#---------------------------------------

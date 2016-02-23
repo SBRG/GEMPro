@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:47
+# Commandline: needle
+#    -outfile P0A9N4_3cb8_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0A9N4.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/3cb8.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0A9N4_3cb8_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A9N4
+# 2: 3cb8.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 246
+# Identity:     244/246 (99.2%)
+# Similarity:   244/246 (99.2%)
+# Gaps:           2/246 ( 0.8%)
+# Score: 1325.0
+# 
+#
+#=======================================
+
+P0A9N4             1 MSVIGRIHSFESCGTVDGPGIRFITFFQGCLMRCLYCHNRDTWDTHGGKE     50
+                       ||||||||||||||||||||||||||||||||||||||||||||||||
+3cb8.A             1 --VIGRIHSFESCGTVDGPGIRFITFFQGCLMRCLYCHNRDTWDTHGGKE     48
+
+P0A9N4            51 VTVEDLMKEVVTYRHFMNASGGGVTASGGEAILQAEFVRDWFRACKKEGI    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3cb8.A            49 VTVEDLMKEVVTYRHFMNASGGGVTASGGEAILQAEFVRDWFRACKKEGI     98
+
+P0A9N4           101 HTCLDTNGFVRRYDPVIDELLEVTDLVMLDLKQMNDEIHQNLVGVSNHRT    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3cb8.A            99 HTCLDTNGFVRRYDPVIDELLEVTDLVMLDLKQMNDEIHQNLVGVSNHRT    148
+
+P0A9N4           151 LEFAKYLANKNVKVWIRYVVVPGWSDDDDSAHRLGEFTRDMGNVEKIELL    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3cb8.A           149 LEFAKYLANKNVKVWIRYVVVPGWSDDDDSAHRLGEFTRDMGNVEKIELL    198
+
+P0A9N4           201 PYHELGKHKWVAMGEEYKLDGVKPPKKETMERVKGILEQYGHKVMF    246
+                     ||||||||||||||||||||||||||||||||||||||||||||||
+3cb8.A           199 PYHELGKHKWVAMGEEYKLDGVKPPKKETMERVKGILEQYGHKVMF    244
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A9N4
+# 2: 3cb8.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 246
+# Identity:       3/246 ( 1.2%)
+# Similarity:     3/246 ( 1.2%)
+# Gaps:         240/246 (97.6%)
+# Score: 11.0
+# 
+#
+#=======================================
+
+P0A9N4             1 MSVIGRIHSFESCGTVDGPGIRFITFFQGCLMRCLYCHNRDTWDTHGGKE     50
+                                                                       
+3cb8.B             0 --------------------------------------------------      0
+
+P0A9N4            51 VTVEDLMKEVVTYRHFMNASGGGVTASGGEAILQAEFVRDWFRACKKEGI    100
+                                       .||..|                          
+3cb8.B             1 ------------------VSGYAV--------------------------      6
+
+P0A9N4           101 HTCLDTNGFVRRYDPVIDELLEVTDLVMLDLKQMNDEIHQNLVGVSNHRT    150
+                                                                       
+3cb8.B             6 --------------------------------------------------      6
+
+P0A9N4           151 LEFAKYLANKNVKVWIRYVVVPGWSDDDDSAHRLGEFTRDMGNVEKIELL    200
+                                                                       
+3cb8.B             6 --------------------------------------------------      6
+
+P0A9N4           201 PYHELGKHKWVAMGEEYKLDGVKPPKKETMERVKGILEQYGHKVMF    246
+                                                                   
+3cb8.B             6 ----------------------------------------------      6
+
+
+#---------------------------------------
+#---------------------------------------

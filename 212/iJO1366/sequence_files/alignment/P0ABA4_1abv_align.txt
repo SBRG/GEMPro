@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:52
+# Commandline: needle
+#    -outfile P0ABA4_1abv_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0ABA4.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1abv.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0ABA4_1abv_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0ABA4
+# 2: 1abv.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 177
+# Identity:     105/177 (59.3%)
+# Similarity:   105/177 (59.3%)
+# Gaps:          72/177 (40.7%)
+# Score: 523.0
+# 
+#
+#=======================================
+
+P0ABA4             1 MSEFITVARPYAKAAFDFAVEHQSVERWQDMLAFAAEVTKNEQMAELLSG     50
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+1abv.A             1 -SEFITVARPYAKAAFDFAVEHQSVERWQDMLAFAAEVTKNEQMAELLSG     49
+
+P0ABA4            51 ALAPETLAESFIAVCGEQLDENGQNLIRVMAENGRLNALPDVLEQFIHLR    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1abv.A            50 ALAPETLAESFIAVCGEQLDENGQNLIRVMAENGRLNALPDVLEQFIHLR     99
+
+P0ABA4           101 AVSEATAEVDVISAAALSEQQLAKISAAMEKRLSRKVKLNCKIDKSVMAG    150
+                     ||||||                                            
+1abv.A           100 AVSEAT--------------------------------------------    105
+
+P0ABA4           151 VIIRAGDMVIDGSVRGRLERLADVLQS    177
+                                                
+1abv.A           105 ---------------------------    105
+
+
+#---------------------------------------
+#---------------------------------------

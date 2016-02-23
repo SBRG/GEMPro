@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:59
+# Commandline: needle
+#    -outfile P0AC69_2wci_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0AC69.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/2wci.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0AC69_2wci_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0AC69
+# 2: 2wci.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 115
+# Identity:     113/115 (98.3%)
+# Similarity:   113/115 (98.3%)
+# Gaps:           2/115 ( 1.7%)
+# Score: 593.0
+# 
+#
+#=======================================
+
+P0AC69             1 MSTTIEKIQRQIAENPILLYMKGSPKLPSCGFSAQAVQALAACGERFAYV     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2wci.A             1 MSTTIEKIQRQIAENPILLYMKGSPKLPSCGFSAQAVQALAACGERFAYV     50
+
+P0AC69            51 DILQNPDIRAELPKYANWPTFPQLWVDGELVGGCDIVIEMYQRGELQQLI    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2wci.A            51 DILQNPDIRAELPKYANWPTFPQLWVDGELVGGCDIVIEMYQRGELQQLI    100
+
+P0AC69           101 KETAAKYKSEEPDAE    115
+                     |||||||||||||  
+2wci.A           101 KETAAKYKSEEPD--    113
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0AC69
+# 2: 2wci.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 115
+# Identity:     112/115 (97.4%)
+# Similarity:   112/115 (97.4%)
+# Gaps:           3/115 ( 2.6%)
+# Score: 588.0
+# 
+#
+#=======================================
+
+P0AC69             1 MSTTIEKIQRQIAENPILLYMKGSPKLPSCGFSAQAVQALAACGERFAYV     50
+                       ||||||||||||||||||||||||||||||||||||||||||||||||
+2wci.B             1 --TTIEKIQRQIAENPILLYMKGSPKLPSCGFSAQAVQALAACGERFAYV     48
+
+P0AC69            51 DILQNPDIRAELPKYANWPTFPQLWVDGELVGGCDIVIEMYQRGELQQLI    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2wci.B            49 DILQNPDIRAELPKYANWPTFPQLWVDGELVGGCDIVIEMYQRGELQQLI     98
+
+P0AC69           101 KETAAKYKSEEPDAE    115
+                     |||||||||||||| 
+2wci.B            99 KETAAKYKSEEPDA-    112
+
+
+#---------------------------------------
+#---------------------------------------

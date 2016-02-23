@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:33
+# Commandline: needle
+#    -outfile P0A790_4crz_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0A790.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/4crz.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0A790_4crz_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A790
+# 2: 4crz.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 127
+# Identity:     124/127 (97.6%)
+# Similarity:   124/127 (97.6%)
+# Gaps:           1/127 ( 0.8%)
+# Score: 633.0
+# 
+#
+#=======================================
+
+P0A790             1 -MIRTMLQGKLHRVKVTHADLHYEGSCAIDQDFLDAAGILENEAIDIWNV     49
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+4crz.A             1 SMIRTMLQGKLHRVKVTHADLHYEGSCAIDQDFLDAAGILENEAIDIWNV     50
+
+P0A790            50 TNGKRFSTYAIAAERGSRIISVNGAAAHCASVGDIVIIASFVTMPDEEAR     99
+                     |||||||.||||||||||||||||||||.|||||||||||||||||||||
+4crz.A            51 TNGKRFSVYAIAAERGSRIISVNGAAAHXASVGDIVIIASFVTMPDEEAR    100
+
+P0A790           100 TWRPNVAYFEGDNEMKRTAKAIPVQVA    126
+                     |||||||||||||||||||||||||||
+4crz.A           101 TWRPNVAYFEGDNEMKRTAKAIPVQVA    127
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A790
+# 2: 4crz.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 240
+# Identity:       3/240 ( 1.2%)
+# Similarity:     5/240 ( 2.1%)
+# Gaps:         226/240 (94.2%)
+# Score: 5.0
+# 
+#
+#=======================================
+
+P0A790             0 --------------------------------------------------      0
+                                                                       
+4crz.B             1 MKLTIIRLEKFSDQDRIDLQKIWPEYSPSSLQVDDNHRIYAARFNERLLA     50
+
+P0A790             0 --------------------------------------------------      0
+                                                                       
+4crz.B            51 AVRVTLSGTEGALDSLRVREVTRRRGVGQYLLEEVLRNNPGVSCWWMADA    100
+
+P0A790             1 --------------MIRTMLQGKLHRVKVTHADLHYEGSCAIDQDFLDAA     36
+                                   :..|..||...:..                      
+4crz.B           101 GVEDRGVMTAFMQALGFTAQQGGWEKCS----------------------    128
+
+P0A790            37 GILENEAIDIWNVTNGKRFSTYAIAAERGSRIISVNGAAAHCASVGDIVI     86
+                                                                       
+4crz.B           128 --------------------------------------------------    128
+
+P0A790            87 IASFVTMPDEEARTWRPNVAYFEGDNEMKRTAKAIPVQVA    126
+                                                             
+4crz.B           128 ----------------------------------------    128
+
+
+#---------------------------------------
+#---------------------------------------

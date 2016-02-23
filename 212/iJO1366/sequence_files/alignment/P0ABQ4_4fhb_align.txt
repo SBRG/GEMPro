@@ -1,0 +1,89 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:57
+# Commandline: needle
+#    -outfile P0ABQ4_4fhb_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0ABQ4.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/4fhb.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0ABQ4_4fhb_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0ABQ4
+# 2: 4fhb.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 159
+# Identity:     159/159 (100.0%)
+# Similarity:   159/159 (100.0%)
+# Gaps:           0/159 ( 0.0%)
+# Score: 855.0
+# 
+#
+#=======================================
+
+P0ABQ4             1 MISLIAALAVDRVIGMENAMPWNLPADLAWFKRNTLNKPVIMGRHTWESI     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+4fhb.A             1 MISLIAALAVDRVIGMENAMPWNLPADLAWFKRNTLNKPVIMGRHTWESI     50
+
+P0ABQ4            51 GRPLPGRKNIILSSQPGTDDRVTWVKSVDEAIAACGDVPEIMVIGGGRVY    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+4fhb.A            51 GRPLPGRKNIILSSQPGTDDRVTWVKSVDEAIAACGDVPEIMVIGGGRVY    100
+
+P0ABQ4           101 EQFLPKAQKLYLTHIDAEVEGDTHFPDYEPDDWESVFSEFHDADAQNSHS    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+4fhb.A           101 EQFLPKAQKLYLTHIDAEVEGDTHFPDYEPDDWESVFSEFHDADAQNSHS    150
+
+P0ABQ4           151 YCFEILERR    159
+                     |||||||||
+4fhb.A           151 YCFEILERR    159
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0ABQ4
+# 2: 4fhb.D
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 231
+# Identity:      16/231 ( 6.9%)
+# Similarity:    25/231 (10.8%)
+# Gaps:         176/231 (76.2%)
+# Score: 10.5
+# 
+#
+#=======================================
+
+P0ABQ4             1 MISLIAALAVDRVIGMENAMPWNLPADLAWFKRNTLNKPVIMGRHTWESI     50
+                                                                       
+4fhb.D             0 --------------------------------------------------      0
+
+P0ABQ4            51 GRPLPGRKNIILSSQPGTDDRVTWVKSVDEAIAACGDVPEIMVIGGGRVY    100
+                                                            ::...|||.| 
+4fhb.D             1 ---------------------------------------QLQESGGGLV-     10
+
+P0ABQ4           101 EQFLPKAQKLYLTHIDAEVEGDTHFPDY----------EPDDWESVFSEF    140
+                            |......:..|..|.| |..|          ...|:.:|.|  
+4fhb.D            11 -------QAGGSLRLSCEASGRT-FSSYAMGWFRQAPXXERDFVAVIS--     50
+
+P0ABQ4           141 HDADAQNSHSYCFEILERR-------------------------------    159
+                         ...|::|..:..:.|                               
+4fhb.D            51 ----WSGSNTYYADSAKGRFTISRDNAKNTVYLQMNSLKPEDTAIYYCAA     96
+
+P0ABQ4           159 -------------------------------    159
+                                                    
+4fhb.D            97 PGRPHGSSWSLNKKGQGYDYWGQGTQVTVSS    127
+
+
+#---------------------------------------
+#---------------------------------------

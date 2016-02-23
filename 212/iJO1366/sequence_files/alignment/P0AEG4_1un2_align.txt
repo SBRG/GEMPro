@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:08:03
+# Commandline: needle
+#    -outfile P0AEG4_1un2_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0AEG4.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1un2.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0AEG4_1un2_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0AEG4
+# 2: 1un2.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 279
+# Identity:     101/279 (36.2%)
+# Similarity:   101/279 (36.2%)
+# Gaps:         160/279 (57.3%)
+# Score: 517.0
+# 
+#
+#=======================================
+
+P0AEG4             0 --------------------------------------------------      0
+                                                                       
+1un2.A             1 QTIRSASDIRDVFINAGIKGEEYDAAWNSFVVKSLVAQQEKAAADVQLRG     50
+
+P0AEG4             1 ---------------------MKKIWLALAGLVLAFSASAAQYEDGKQYT     29
+                                          |.......|..|...|.....||||||||
+1un2.A            51 VPAMFVNGKYQLNPQGMDTSNMDVFVQQYADTVKYLSEXXXXYEDGKQYT    100
+
+P0AEG4            30 TLEKPVAGAPQVLEFFSFFCPHCYQFEEVLHISDNVKKKLPEGVKMTKYH     79
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1un2.A           101 TLEKPVAGAPQVLEFFSFFCPHCYQFEEVLHISDNVKKKLPEGVKMTKYH    150
+
+P0AEG4            80 VNFMGGDLGKDLTQAWAVAMALGVEDKVTVPLFEGVQKTQTIRSASDIRD    129
+                     |||||||||||||||||||||||||||||||||||||||.          
+1un2.A           151 VNFMGGDLGKDLTQAWAVAMALGVEDKVTVPLFEGVQKTL----------    190
+
+P0AEG4           130 VFINAGIKGEEYDAAWNSFVVKSLVAQQEKAAADVQLRGVPAMFVNGKYQ    179
+                                                                       
+1un2.A           190 --------------------------------------------------    190
+
+P0AEG4           180 LNPQGMDTSNMDVFVQQYADTVKYLSEKK    208
+                                                  
+1un2.A           190 -----------------------------    190
+
+
+#---------------------------------------
+#---------------------------------------

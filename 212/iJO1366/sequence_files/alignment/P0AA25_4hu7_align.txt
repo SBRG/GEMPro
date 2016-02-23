@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:50
+# Commandline: needle
+#    -outfile P0AA25_4hu7_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0AA25.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/4hu7.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0AA25_4hu7_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0AA25
+# 2: 4hu7.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 109
+# Identity:     103/109 (94.5%)
+# Similarity:   103/109 (94.5%)
+# Gaps:           2/109 ( 1.8%)
+# Score: 527.0
+# 
+#
+#=======================================
+
+P0AA25             1 MSDKIIHLTDDSFDTDVLKADGAILVDFWAEWCGPCKMIAPILDEIADEY     50
+                      |||||||||||||||||||||||||||||||||.|||||.|||||||||
+4hu7.A             1 -SDKIIHLTDDSFDTDVLKADGAILVDFWAEWCGACKMIAAILDEIADEY     49
+
+P0AA25            51 QGKLTVAKLNIDQNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQL    100
+                     ||||||||||||||.|||.|||||||||||||||||||||||||||||||
+4hu7.A            50 QGKLTVAKLNIDQNAGTAAKYGIRGIPTLLLFKNGEVAATKVGALSKGQL     99
+
+P0AA25           101 KEFLDANLA    109
+                     |||||||| 
+4hu7.A           100 KEFLDANL-    107
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0AA25
+# 2: 4hu7.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 109
+# Identity:     100/109 (91.7%)
+# Similarity:   100/109 (91.7%)
+# Gaps:           5/109 ( 4.6%)
+# Score: 512.0
+# 
+#
+#=======================================
+
+P0AA25             1 MSDKIIHLTDDSFDTDVLKADGAILVDFWAEWCGPCKMIAPILDEIADEY     50
+                         ||||||||||||||||||||||||||||||.|||||.|||||||||
+4hu7.B             1 ----IIHLTDDSFDTDVLKADGAILVDFWAEWCGACKMIAAILDEIADEY     46
+
+P0AA25            51 QGKLTVAKLNIDQNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQL    100
+                     ||||||||||||||.|||.|||||||||||||||||||||||||||||||
+4hu7.B            47 QGKLTVAKLNIDQNAGTAAKYGIRGIPTLLLFKNGEVAATKVGALSKGQL     96
+
+P0AA25           101 KEFLDANLA    109
+                     |||||||| 
+4hu7.B            97 KEFLDANL-    104
+
+
+#---------------------------------------
+#---------------------------------------

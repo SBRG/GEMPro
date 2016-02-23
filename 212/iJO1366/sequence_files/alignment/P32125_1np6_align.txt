@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:08:41
+# Commandline: needle
+#    -outfile P32125_1np6_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P32125.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1np6.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P32125_1np6_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P32125
+# 2: 1np6.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 175
+# Identity:     158/175 (90.3%)
+# Similarity:   158/175 (90.3%)
+# Gaps:           5/175 ( 2.9%)
+# Score: 793.0
+# 
+#
+#=======================================
+
+P32125             1 MAGKTMIPLLAFAAWSGTGKTTLLKKLIPALCARGIRPGLIKHTHHDMDV     50
+                          |||||||||||||||||||||||||||||||||||||||||....
+1np6.A             1 -----MIPLLAFAAWSGTGKTTLLKKLIPALCARGIRPGLIKHTHHXXXX     45
+
+P32125            51 DKPGKDSYELRKAGAAQTIVASQQRWALMTETPDEEELDLQFLASRMDTS    100
+                     ........||||||||||||||||||||||||||||||||||||||||||
+1np6.A            46 XXXXXXXXELRKAGAAQTIVASQQRWALMTETPDEEELDLQFLASRMDTS     95
+
+P32125           101 KLDLILVEGFKHEEIAKIVLFRDGAGHRPEELVIDRHVIAVASDVPLNLD    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1np6.A            96 KLDLILVEGFKHEEIAKIVLFRDGAGHRPEELVIDRHVIAVASDVPLNLD    145
+
+P32125           151 VALLDINDVEGLADFVVEWMQKQNG    175
+                     |||||||||||||||||||||||||
+1np6.A           146 VALLDINDVEGLADFVVEWMQKQNG    170
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P32125
+# 2: 1np6.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 175
+# Identity:     169/175 (96.6%)
+# Similarity:   169/175 (96.6%)
+# Gaps:           6/175 ( 3.4%)
+# Score: 866.0
+# 
+#
+#=======================================
+
+P32125             1 MAGKTMIPLLAFAAWSGTGKTTLLKKLIPALCARGIRPGLIKHTHHDMDV     50
+                          |||||||||||||||||||||||||||||||||||||||||||||
+1np6.B             1 -----MIPLLAFAAWSGTGKTTLLKKLIPALCARGIRPGLIKHTHHDMDV     45
+
+P32125            51 DKPGKDSYELRKAGAAQTIVASQQRWALMTETPDEEELDLQFLASRMDTS    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1np6.B            46 DKPGKDSYELRKAGAAQTIVASQQRWALMTETPDEEELDLQFLASRMDTS     95
+
+P32125           101 KLDLILVEGFKHEEIAKIVLFRDGAGHRPEELVIDRHVIAVASDVPLNLD    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1np6.B            96 KLDLILVEGFKHEEIAKIVLFRDGAGHRPEELVIDRHVIAVASDVPLNLD    145
+
+P32125           151 VALLDINDVEGLADFVVEWMQKQNG    175
+                     |||||||||||||||||||||||| 
+1np6.B           146 VALLDINDVEGLADFVVEWMQKQN-    169
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,42 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:59
+# Commandline: needle
+#    -outfile P0AC62_1fov_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0AC62.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1fov.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0AC62_1fov_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0AC62
+# 2: 1fov.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 83
+# Identity:      81/83 (97.6%)
+# Similarity:    81/83 (97.6%)
+# Gaps:           1/83 ( 1.2%)
+# Score: 419.0
+# 
+#
+#=======================================
+
+P0AC62             1 MANVEIYTKETCPYCHRAKALLSSKGVSFQELPIDGNAAKREEMIKRSGR     50
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+1fov.A             1 -ANVEIYTKETCPYCHRAKALLSSKGVSFQELPIDGNAAKREEMIKRSGR     49
+
+P0AC62            51 TTVPQIFIDAQHIGGCDDLYALDARGGLDPLLK     83
+                     |||||||||||||||.|||||||||||||||||
+1fov.A            50 TTVPQIFIDAQHIGGYDDLYALDARGGLDPLLK     82
+
+
+#---------------------------------------
+#---------------------------------------

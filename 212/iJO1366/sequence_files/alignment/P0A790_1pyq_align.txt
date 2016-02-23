@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:32
+# Commandline: needle
+#    -outfile P0A790_1pyq_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0A790.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1pyq.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0A790_1pyq_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A790
+# 2: 1pyq.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 131
+# Identity:     115/131 (87.8%)
+# Similarity:   115/131 (87.8%)
+# Gaps:          16/131 (12.2%)
+# Score: 588.0
+# 
+#
+#=======================================
+
+P0A790             1 ----MIRTMLQGKLHRVKVTHADLHYE-GSCAIDQDFLDAAGILENEAID     45
+                         ||||||||||||||||||||||| ||||||||||||||||||||||
+1pyq.A             1 PRGSMIRTMLQGKLHRVKVTHADLHYEAGSCAIDQDFLDAAGILENEAID     50
+
+P0A790            46 IWNVTNGKRFSTYAIAAERGSRIISVNGAAAHCASVGDIVIIASFVTMPD     95
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1pyq.A            51 IWNVTNGKRFSTYAIAAERGSRIISVNGAAAHCASVGDIVIIASFVTMPD    100
+
+P0A790            96 EEARTWRPNVAYFEGDNEMKRTAKAIPVQVA    126
+                     ||||||||||||||||||||           
+1pyq.A           101 EEARTWRPNVAYFEGDNEMK-----------    120
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A790
+# 2: 1pyq.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 127
+# Identity:     115/127 (90.6%)
+# Similarity:   115/127 (90.6%)
+# Gaps:          12/127 ( 9.4%)
+# Score: 588.0
+# 
+#
+#=======================================
+
+P0A790             1 MIRTMLQGKLHRVKVTHADLHYE-GSCAIDQDFLDAAGILENEAIDIWNV     49
+                     ||||||||||||||||||||||| ||||||||||||||||||||||||||
+1pyq.B             1 MIRTMLQGKLHRVKVTHADLHYEAGSCAIDQDFLDAAGILENEAIDIWNV     50
+
+P0A790            50 TNGKRFSTYAIAAERGSRIISVNGAAAHCASVGDIVIIASFVTMPDEEAR     99
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1pyq.B            51 TNGKRFSTYAIAAERGSRIISVNGAAAHCASVGDIVIIASFVTMPDEEAR    100
+
+P0A790           100 TWRPNVAYFEGDNEMKRTAKAIPVQVA    126
+                     ||||||||||||||||           
+1pyq.B           101 TWRPNVAYFEGDNEMK-----------    116
+
+
+#---------------------------------------
+#---------------------------------------

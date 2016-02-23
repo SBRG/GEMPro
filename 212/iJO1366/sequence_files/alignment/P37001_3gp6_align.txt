@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:08:45
+# Commandline: needle
+#    -outfile P37001_3gp6_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P37001.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/3gp6.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P37001_3gp6_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P37001
+# 2: 3gp6.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 187
+# Identity:     153/187 (81.8%)
+# Similarity:   153/187 (81.8%)
+# Gaps:          25/187 (13.4%)
+# Score: 885.0
+# 
+#
+#=======================================
+
+P37001             1 MNVSKYVAIFSFVFIQLISVGKVFANADEWMTTFRENIAQTWQQPEHYDL     50
+                                             .|||||||||||||||||||||||||
+3gp6.A             1 ------------------------MNADEWMTTFRENIAQTWQQPEHYDL     26
+
+P37001            51 YIPAITWHARFAYDKEKTDRYNERPWGGGFGLSRWDEKGNWHGLYAMAFK    100
+                     ||||||||||||........||||||||||||||||||||||||||||||
+3gp6.A            27 YIPAITWHARFAXXXXXXXXYNERPWGGGFGLSRWDEKGNWHGLYAMAFK     76
+
+P37001           101 DSWNKWEPIAGYGWESTWRPLADENFHLGLGFTAGVTARDNWNYIPLPVL    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3gp6.A            77 DSWNKWEPIAGYGWESTWRPLADENFHLGLGFTAGVTARDNWNYIPLPVL    126
+
+P37001           151 LPLASVGYGPVTFQMTYIPGTYNNGNVYFAWMRFQF-    186
+                     |||||||||||||||||||||||||||||||||||| 
+3gp6.A           127 LPLASVGYGPVTFQMTYIPGTYNNGNVYFAWMRFQFL    163
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:08:21
+# Commandline: needle
+#    -outfile P13000_1dag_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P13000.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1dag.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P13000_1dag_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P13000
+# 2: 1dag.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 225
+# Identity:     224/225 (99.6%)
+# Similarity:   224/225 (99.6%)
+# Gaps:           1/225 ( 0.4%)
+# Score: 1159.0
+# 
+#
+#=======================================
+
+P13000             1 MSKRYFVTGTDTEVGKTVASCALLQAAKAAGYRTAGYKPVASGSEKTPEG     50
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+1dag.A             1 -SKRYFVTGTDTEVGKTVASCALLQAAKAAGYRTAGYKPVASGSEKTPEG     49
+
+P13000            51 LRNSDALALQRNSSLQLDYATVNPYTFAEPTSPHIISAQEGRPIESLVMS    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1dag.A            50 LRNSDALALQRNSSLQLDYATVNPYTFAEPTSPHIISAQEGRPIESLVMS     99
+
+P13000           101 AGLRALEQQADWVLVEGAGGWFTPLSDTFTFADWVTQEQLPVILVVGVKL    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1dag.A           100 AGLRALEQQADWVLVEGAGGWFTPLSDTFTFADWVTQEQLPVILVVGVKL    149
+
+P13000           151 GCINHAMLTAQVIQHAGLTLAGWVANDVTPPGKRHAEYMTTLTRMIPAPL    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1dag.A           150 GCINHAMLTAQVIQHAGLTLAGWVANDVTPPGKRHAEYMTTLTRMIPAPL    199
+
+P13000           201 LGEIPWLAENPENAATGKYINLALL    225
+                     |||||||||||||||||||||||||
+1dag.A           200 LGEIPWLAENPENAATGKYINLALL    224
+
+
+#---------------------------------------
+#---------------------------------------

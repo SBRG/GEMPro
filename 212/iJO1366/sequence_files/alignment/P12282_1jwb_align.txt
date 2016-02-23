@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:08:19
+# Commandline: needle
+#    -outfile P12282_1jwb_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P12282.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1jwb.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P12282_1jwb_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P12282
+# 2: 1jwb.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 249
+# Identity:     240/249 (96.4%)
+# Similarity:   240/249 (96.4%)
+# Gaps:           2/249 ( 0.8%)
+# Score: 1217.0
+# 
+#
+#=======================================
+
+P12282             1 MAELSDQEMLRYNRQIILRGFDFDGQEALKDSRVLIVGLGGLGCAASQYL     50
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+1jwb.B             1 -AELSDQEMLRYNRQIILRGFDFDGQEALKDSRVLIVGLGGLGCAASQYL     49
+
+P12282            51 ASAGVGNLTLLDFDTVSLSNLQRQTLHSDATVGQPKVESARDALTRINPH    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1jwb.B            50 ASAGVGNLTLLDFDTVSLSNLQRQTLHSDATVGQPKVESARDALTRINPH     99
+
+P12282           101 IAITPVNALLDDAELAALIAEHDLVLDCTDNVAVRNQLNAGCFAAKVPLV    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1jwb.B           100 IAITPVNALLDDAELAALIAEHDLVLDCTDNVAVRNQLNAGCFAAKVPLV    149
+
+P12282           151 SGAAIRMEGQITVFTYQDGEPCYRCLSRLFGENALTCVEAGVMAPLIGVI    200
+                     |||||||||||||||||||||||||||||||.......||||||||||||
+1jwb.B           150 SGAAIRMEGQITVFTYQDGEPCYRCLSRLFGXXXXXXXEAGVMAPLIGVI    199
+
+P12282           201 GSLQAMEAIKMLAGYGKPASGKIVMYDAMTCQFREMKLMRNPGCEVCGQ    249
+                     |||||||||||||||||||||||||||||||||||||||||||||||| 
+1jwb.B           200 GSLQAMEAIKMLAGYGKPASGKIVMYDAMTCQFREMKLMRNPGCEVCG-    247
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P12282
+# 2: 1jwb.D
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 252
+# Identity:      23/252 ( 9.1%)
+# Similarity:    39/252 (15.5%)
+# Gaps:         175/252 (69.4%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+P12282             1 MAELSDQEMLRYNRQIILRGFDFDGQEALKDSRVLIVGLGGLGCAASQYL     50
+                                                                       
+1jwb.D             0 --------------------------------------------------      0
+
+P12282            51 ASAGVGNLTLLDFDTVSLSNLQRQTLHSDAT---VGQPKVESARDALTRI     97
+                            :.:|.|..|      |:.:.:|||   ...|.||:.|..:...
+1jwb.D             1 -------IKVLFFAQV------RELVGTDATEVAADFPTVEALRQHMAAQ     37
+
+P12282            98 NPHIAITPVNALLDDAELAALIAEHDLVLDCTDNVAVRNQLNAGCFAAKV    147
+                     :...|:.     |:|.:|.|.:.:..:..|        :.|..|...|..
+1jwb.D            38 SDRWALA-----LEDGKLLAAVNQTLVSFD--------HPLTDGDEVAFF     74
+
+P12282           148 PLVSGAAIRMEGQITVFTYQDGEPCYRCLSRLFGENALTCVEAGVMAPLI    197
+                     |.|:|.                                            
+1jwb.D            75 PPVTGG--------------------------------------------     80
+
+P12282           198 GVIGSLQAMEAIKMLAGYGKPASGKIVMYDAMTCQFREMKLMRNPGCEVC    247
+                                                                       
+1jwb.D            80 --------------------------------------------------     80
+
+P12282           248 GQ    249
+                       
+1jwb.D            80 --     80
+
+
+#---------------------------------------
+#---------------------------------------

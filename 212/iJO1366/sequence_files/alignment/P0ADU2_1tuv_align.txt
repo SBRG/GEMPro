@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:08:01
+# Commandline: needle
+#    -outfile P0ADU2_1tuv_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0ADU2.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1tuv.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0ADU2_1tuv_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0ADU2
+# 2: 1tuv.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 104
+# Identity:     103/104 (99.0%)
+# Similarity:   103/104 (99.0%)
+# Gaps:           1/104 ( 1.0%)
+# Score: 536.0
+# 
+#
+#=======================================
+
+P0ADU2             1 MLTVIAEIRTRPGQHHRQAVLDQFAKIVPTVLKEEGCHGYAPMVDCAAGV     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1tuv.A             1 MLTVIAEIRTRPGQHHRQAVLDQFAKIVPTVLKEEGCHGYAPMVDCAAGV     50
+
+P0ADU2            51 SFQSMAPDSIVMIEQWESIAHLEAHLQTPHMKAYSEAVKGDVLEMNIRIL    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1tuv.A            51 SFQSMAPDSIVMIEQWESIAHLEAHLQTPHMKAYSEAVKGDVLEMNIRIL    100
+
+P0ADU2           101 QPGI    104
+                     ||| 
+1tuv.A           101 QPG-    103
+
+
+#---------------------------------------
+#---------------------------------------

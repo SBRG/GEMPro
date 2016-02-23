@@ -1,0 +1,97 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:08:03
+# Commandline: needle
+#    -outfile P0AEG4_2leg_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0AEG4.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/2leg.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0AEG4_2leg_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0AEG4
+# 2: 2leg.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 208
+# Identity:     187/208 (89.9%)
+# Similarity:   187/208 (89.9%)
+# Gaps:          20/208 ( 9.6%)
+# Score: 970.0
+# 
+#
+#=======================================
+
+P0AEG4             1 MKKIWLALAGLVLAFSASAAQYEDGKQYTTLEKPVAGAPQVLEFFSFFCP     50
+                                        |||||||||||||||||||||||||||||||
+2leg.A             1 -------------------AQYEDGKQYTTLEKPVAGAPQVLEFFSFFCP     31
+
+P0AEG4            51 HCYQFEEVLHISDNVKKKLPEGVKMTKYHVNFMGGDLGKDLTQAWAVAMA    100
+                     |.||||||||||||||||||||||||||||||||||||||||||||||||
+2leg.A            32 HAYQFEEVLHISDNVKKKLPEGVKMTKYHVNFMGGDLGKDLTQAWAVAMA     81
+
+P0AEG4           101 LGVEDKVTVPLFEGVQKTQTIRSASDIRDVFINAGIKGEEYDAAWNSFVV    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2leg.A            82 LGVEDKVTVPLFEGVQKTQTIRSASDIRDVFINAGIKGEEYDAAWNSFVV    131
+
+P0AEG4           151 KSLVAQQEKAAADVQLRGVPAMFVNGKYQLNPQGMDTSNMDVFVQQYADT    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2leg.A           132 KSLVAQQEKAAADVQLRGVPAMFVNGKYQLNPQGMDTSNMDVFVQQYADT    181
+
+P0AEG4           201 VKYLSEKK    208
+                     ||||||| 
+2leg.A           182 VKYLSEK-    188
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0AEG4
+# 2: 2leg.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 253
+# Identity:      34/253 (13.4%)
+# Similarity:    50/253 (19.8%)
+# Gaps:         149/253 (58.9%)
+# Score: 11.5
+# 
+#
+#=======================================
+
+P0AEG4             1 MKKIWLALAGLVLAFSASAAQYEDGKQYTTLEKPVAGAPQVLEFFSFFCP     50
+                        .||.:|...||...:|..:    |:..|.||              |.
+2leg.B             1 ---AWLLMAFTALALELTALWF----QHVMLLKP--------------CV     29
+
+P0AEG4            51 HCYQFEEVLHISDNVKKKLPEGVKMTKYHVNFMGGDLGKDLTQAWA----     96
+                     .|. :|.|.                       :.|.||..|..|.|    
+2leg.B            30 LCI-YERVA-----------------------LFGVLGAALIGAIAPKTP     55
+
+P0AEG4            97 ---VAMALGVEDKVTVPLFEGVQKTQTIRSASDIRDVFINAGIKGEEYDA    143
+                        |||.:.:                                     |.|
+2leg.B            56 LRYVAMVIWL-------------------------------------YSA     68
+
+P0AEG4           144 AWNSFVVKSLVAQQEKAAADVQLRGVPAMFVNGKYQLNPQGMDTSNMDVF    193
+                                           .|||...:.:...||.|....|.:..|.
+2leg.B            69 ----------------------FRGVQLTYEHTMLQLYPSPFATCDFMVR     96
+
+P0AEG4           194 VQQYADTVKYLSEKK-----------------------------------    208
+                     ..::....|::.:..                                   
+2leg.B            97 FPEWLPLDKWVPQVFVAXXXXXXXXXXXXXXXMPQWLLGIFIAYLIVAVL    146
+
+P0AEG4           208 ---    208
+                        
+2leg.B           147 VVI    149
+
+
+#---------------------------------------
+#---------------------------------------

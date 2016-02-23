@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:08:15
+# Commandline: needle
+#    -outfile P0AG18_2ate_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0AG18.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/2ate.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0AG18_2ate_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0AG18
+# 2: 2ate.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 169
+# Identity:     158/169 (93.5%)
+# Similarity:   158/169 (93.5%)
+# Gaps:           7/169 ( 4.1%)
+# Score: 791.0
+# 
+#
+#=======================================
+
+P0AG18             1 MSSRNNPARVAIVMGSKSDWATMQFAAEIFEILNVPHHVEVVSAHRTPDK     50
+                            ||||||.||||||||.|||||||||||||||||||||||||||
+2ate.A             1 -------ARVAIVXGSKSDWATXQFAAEIFEILNVPHHVEVVSAHRTPDK     43
+
+P0AG18            51 LFSFAESAEENGYQVIIAGAGGAAHLPGMIAAKTLVPVLGVPVQSAALSG    100
+                     ||||||||||||||||||||||||||||.|||||||||||||||||||||
+2ate.A            44 LFSFAESAEENGYQVIIAGAGGAAHLPGXIAAKTLVPVLGVPVQSAALSG     93
+
+P0AG18           101 VDSLYSIVQMPRGIPVGTLAIGKAGAANAALLAAQILATHDKELHQRLND    150
+                     |||||||||.||||||||||||||||||||||||||||||||||||||||
+2ate.A            94 VDSLYSIVQXPRGIPVGTLAIGKAGAANAALLAAQILATHDKELHQRLND    143
+
+P0AG18           151 WRKAQTDEVLENPDPRGAA    169
+                     |||||||||||||||||||
+2ate.A           144 WRKAQTDEVLENPDPRGAA    162
+
+
+#---------------------------------------
+#---------------------------------------

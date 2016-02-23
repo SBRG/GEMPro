@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:23
+# Commandline: needle
+#    -outfile P0A6E6_1fs0_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0A6E6.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1fs0.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0A6E6_1fs0_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A6E6
+# 2: 1fs0.E
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:     128/139 (92.1%)
+# Similarity:   128/139 (92.1%)
+# Gaps:           5/139 ( 3.6%)
+# Score: 635.0
+# 
+#
+#=======================================
+
+P0A6E6             1 MAMTYHLDVVSAEQQMFSGLVEKIQVTGSEGELGIYPGHAPLLTAIKPGM     50
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+1fs0.E             1 -AMTYHLDVVSAEQQMFSGLVEKIQVTGSEGELGIYPGHAPLLTAIKPGM     49
+
+P0A6E6            51 IRIVKQHGHEEFIYLSGGILEVQPGNVTVLADTAIRGQDLDEARAMEAKR    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1fs0.E            50 IRIVKQHGHEEFIYLSGGILEVQPGNVTVLADTAIRGQDLDEARAMEAKR     99
+
+P0A6E6           101 KAEEHISSSHGDVDYAQASAELAKAIAQLRVIELTKKAM    139
+                     |||||......||||||||||||||||||||||||    
+1fs0.E           100 KAEEHXXXXXXDVDYAQASAELAKAIAQLRVIELT----    134
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A6E6
+# 2: 1fs0.G
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 339
+# Identity:      11/339 ( 3.2%)
+# Similarity:    18/339 ( 5.3%)
+# Gaps:         309/339 (91.2%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+P0A6E6             0 --------------------------------------------------      0
+                                                                       
+1fs0.G             1 KITKAMEMVAASKMRKSQDRMAASRPYAETMRKVIGHLAHXXXXYKHPYL     50
+
+P0A6E6             0 --------------------------------------------------      0
+                                                                       
+1fs0.G            51 EDRDVKRVGYLVVSTDRGLCGGLNINLFKKLLAEMKTWTDKGVQCDLAMI    100
+
+P0A6E6             0 --------------------------------------------------      0
+                                                                       
+1fs0.G           101 GSKGVSFFNSVGGNVVAQVTGMGDNPSLSELIGPVKVMLQAYDEGRLDKL    150
+
+P0A6E6             0 --------------------------------------------------      0
+                                                                       
+1fs0.G           151 YIVSNKFINTMSQVPTISQLLPLPXXXXXXXKHKSWDYLYEPDPKALLDT    200
+
+P0A6E6             1 MAMTYHLDVVSAEQQMFSGLVEKIQVTGSEGELGIYPGHAPLLTAIKPGM     50
+                     :...|      .|.|::.|:||.:   .||        .|..:.|:|   
+1fs0.G           201 LLRRY------VESQVYQGVVENL---ASE--------QAARMVAMK---    230
+
+P0A6E6            51 IRIVKQHGHEEFIYLSGGILEVQPGNVTVLADTAIRGQDLDEARAMEAKR    100
+                                                                       
+1fs0.G           230 --------------------------------------------------    230
+
+P0A6E6           101 KAEEHISSSHGDVDYAQASAELAKAIAQLRVIELTKKAM    139
+                                                            
+1fs0.G           230 ---------------------------------------    230
+
+
+#---------------------------------------
+#---------------------------------------

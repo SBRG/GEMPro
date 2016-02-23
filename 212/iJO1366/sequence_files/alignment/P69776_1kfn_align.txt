@@ -1,0 +1,42 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:09:02
+# Commandline: needle
+#    -outfile P69776_1kfn_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P69776.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1kfn.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P69776_1kfn_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P69776
+# 2: 1kfn.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      49/78 (62.8%)
+# Similarity:    49/78 (62.8%)
+# Gaps:          25/78 (32.1%)
+# Score: 236.0
+# 
+#
+#=======================================
+
+P69776             1 MKATKLVLGAVILGSTLLAGCSSNAKIDQLSSDVQTLNAKVDQLSNDVNA     50
+                                          ||||||||||||||||||||||.|||.||
+1kfn.A             1 ---------------------SSNAKIDQLSSDVQTLNAKVDQASNDANA     29
+
+P69776            51 MRSDVQAAKDDAARANQRLDNMATKYRK     78
+                     .|||.|||||||||||||||||||    
+1kfn.A            30 ARSDAQAAKDDAARANQRLDNMAT----     53
+
+
+#---------------------------------------
+#---------------------------------------

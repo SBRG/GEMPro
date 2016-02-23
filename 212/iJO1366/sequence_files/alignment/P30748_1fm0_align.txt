@@ -1,0 +1,77 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:08:36
+# Commandline: needle
+#    -outfile P30748_1fm0_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P30748.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1fm0.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P30748_1fm0_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P30748
+# 2: 1fm0.D
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 81
+# Identity:      81/81 (100.0%)
+# Similarity:    81/81 (100.0%)
+# Gaps:           0/81 ( 0.0%)
+# Score: 411.0
+# 
+#
+#=======================================
+
+P30748             1 MIKVLFFAQVRELVGTDATEVAADFPTVEALRQHMAAQSDRWALALEDGK     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1fm0.D             1 MIKVLFFAQVRELVGTDATEVAADFPTVEALRQHMAAQSDRWALALEDGK     50
+
+P30748            51 LLAAVNQTLVSFDHPLTDGDEVAFFPPVTGG     81
+                     |||||||||||||||||||||||||||||||
+1fm0.D            51 LLAAVNQTLVSFDHPLTDGDEVAFFPPVTGG     81
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P30748
+# 2: 1fm0.E
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 167
+# Identity:      20/167 (12.0%)
+# Similarity:    34/167 (20.4%)
+# Gaps:         104/167 (62.3%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+P30748             1 MIKVLFFAQVRELVGTDATEVAADFP------------------------     26
+                            |:.:.:||.....|..::|                        
+1fm0.E             1 -------AETKIVVGPQPFSVGEEYPWLAERDEDGAVVTFTGKVRXXXXX     43
+
+P30748            27 --------------TVEALRQHMAAQSDRWALALEDGKLLAAVNQTLVSF     62
+                                   |.:||.:.:....:||.|    |::      |::..
+1fm0.E            44 XXVNALTLEHYPGMTEKALAEIVDEARNRWPL----GRV------TVIHR     83
+
+P30748            63 DHPLTDGDEVAFFPPVTGG-------------------------------     81
+                     ...|..|||:.|. .||..                               
+1fm0.E            84 IGELWPGDEIVFV-GVTSAHRSSAFEAGQFIMDYLKTRAPFWKREATPEG    132
+
+P30748            81 -----------------     81
+                                      
+1fm0.E           133 DRWVEARESDQQAAKRW    149
+
+
+#---------------------------------------
+#---------------------------------------

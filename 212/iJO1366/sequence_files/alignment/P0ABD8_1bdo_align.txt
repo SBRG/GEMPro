@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:53
+# Commandline: needle
+#    -outfile P0ABD8_1bdo_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0ABD8.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1bdo.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0ABD8_1bdo_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0ABD8
+# 2: 1bdo.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 156
+# Identity:      80/156 (51.3%)
+# Similarity:    80/156 (51.3%)
+# Gaps:          76/156 (48.7%)
+# Score: 403.0
+# 
+#
+#=======================================
+
+P0ABD8             1 MDIRKIKKLIELVEESGISELEISEGEESVRISRAAPAASFPVMQQAYAA     50
+                                                                       
+1bdo.A             0 --------------------------------------------------      0
+
+P0ABD8            51 PMMQQPAQSNAAAPATVPSMEAPAAAEISGHIVRSPMVGTFYRTPSPDAK    100
+                                               ||||||||||||||||||||||||
+1bdo.A             1 --------------------------EISGHIVRSPMVGTFYRTPSPDAK     24
+
+P0ABD8           101 AFIEVGQKVNVGDTLCIVEAMKMMNQIEADKSGTVKAILVESGQPVEFDE    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1bdo.A            25 AFIEVGQKVNVGDTLCIVEAMKMMNQIEADKSGTVKAILVESGQPVEFDE     74
+
+P0ABD8           151 PLVVIE    156
+                     ||||||
+1bdo.A            75 PLVVIE     80
+
+
+#---------------------------------------
+#---------------------------------------

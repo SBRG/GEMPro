@@ -1,0 +1,81 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:48
+# Commandline: needle
+#    -outfile P0AA04_4xwj_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0AA04.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/4xwj.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0AA04_4xwj_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0AA04
+# 2: 4xwj.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 230
+# Identity:       1/230 ( 0.4%)
+# Similarity:     5/230 ( 2.2%)
+# Gaps:         222/230 (96.5%)
+# Score: 10.0
+# 
+#
+#=======================================
+
+P0AA04             1 MFQQEVTITAPNGLHTRPAAQFVKEAKGFTSEITVTSNGKSASAKSLFKL     50
+                                                                       
+4xwj.A             0 --------------------------------------------------      0
+
+P0AA04            51 QTLGLTQGTVVTISAEGEDEQKAVEHLVKLMAELE---------------     85
+                                                ..::.:|:               
+4xwj.A             1 ---------------------------TSMLNQLDNLTERVRGSNKLVDR     23
+
+P0AA04            85 --------------------------------------------------     85
+                                                                       
+4xwj.A            24 WLHVRKHLLVAYYNLVGIKPGKESYMRLNEKALDDFCQSLVDYLSAGHFS     73
+
+P0AA04            85 --------------------------------------------------     85
+                                                                       
+4xwj.A            74 IYERILHKLEGNGQLARAAKIWPQLEANTQQIMDYYDSSLETAIDHDNYL    123
+
+P0AA04            85 ------------------------------     85
+                                                   
+4xwj.A           124 EFQQVLSDIGESLEARFVLEDKLILLVLDA    153
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0AA04
+# 2: 4xwj.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 85
+# Identity:      82/85 (96.5%)
+# Similarity:    82/85 (96.5%)
+# Gaps:           2/85 ( 2.4%)
+# Score: 398.0
+# 
+#
+#=======================================
+
+P0AA04             1 MFQQEVTITAPNGLHTRPAAQFVKEAKGFTSEITVTSNGKSASAKSLFKL     50
+                     |.||||||||||||||||||||||||||||||||||||||||||||||||
+4xwj.B             1 MSQQEVTITAPNGLHTRPAAQFVKEAKGFTSEITVTSNGKSASAKSLFKL     50
+
+P0AA04            51 QTLGLTQGTVVTISAEGEDEQKAVEHLVKLMAELE     85
+                     |||||||||||||||||||||||||||||||||  
+4xwj.B            51 QTLGLTQGTVVTISAEGEDEQKAVEHLVKLMAE--     83
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,85 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:48
+# Commandline: needle
+#    -outfile P0AA04_3eza_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0AA04.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/3eza.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0AA04_3eza_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0AA04
+# 2: 3eza.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 263
+# Identity:      18/263 ( 6.8%)
+# Similarity:    31/263 (11.8%)
+# Gaps:         192/263 (73.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+P0AA04             1 MFQQEVTITAPNGLHTRPAAQFVKEAKGFTSEITVTSNGKSAS-------     43
+                              ..:|:...|...|.|.......||.:.....||.       
+3eza.A             1 ---------MISGILASPGIAFGKALLLKEDEIVIDRKKISADQVDQEVE     41
+
+P0AA04            44 ------AKSLFKLQTLGLTQGTVVTISAEGEDEQKAVEHLVKLMAELE--     85
+                           ||:..:|:|:....|...     ||:::...|..:.|:.:.|  
+3eza.A            42 RFLSGRAKASAQLETIKTKAGETF-----GEEKEAIFEGHIMLLEDEELE     86
+
+P0AA04            85 --------------------------------------------------     85
+                                                                       
+3eza.A            87 QEIIALIKDKHMTADAAAHEVIEGQASALEELDDEYLKERAADVRDIGKR    136
+
+P0AA04            85 --------------------------------------------------     85
+                                                                       
+3eza.A           137 LLRNILGLKIIDLSAIQDEVILVAADLTPSETAQLNLKKVLGFITDAGGR    186
+
+P0AA04            85 --------------------------------------------------     85
+                                                                       
+3eza.A           187 TSHTSIMARSLELPAIVGTGSVTSQVKNDDYLILDAVNNQVYVNPTNEVI    236
+
+P0AA04            85 -------------     85
+                                  
+3eza.A           237 DKMRAVQEQVASE    249
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0AA04
+# 2: 3eza.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 85
+# Identity:      85/85 (100.0%)
+# Similarity:    85/85 (100.0%)
+# Gaps:           0/85 ( 0.0%)
+# Score: 415.0
+# 
+#
+#=======================================
+
+P0AA04             1 MFQQEVTITAPNGLHTRPAAQFVKEAKGFTSEITVTSNGKSASAKSLFKL     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3eza.B             1 MFQQEVTITAPNGLHTRPAAQFVKEAKGFTSEITVTSNGKSASAKSLFKL     50
+
+P0AA04            51 QTLGLTQGTVVTISAEGEDEQKAVEHLVKLMAELE     85
+                     |||||||||||||||||||||||||||||||||||
+3eza.B            51 QTLGLTQGTVVTISAEGEDEQKAVEHLVKLMAELE     85
+
+
+#---------------------------------------
+#---------------------------------------

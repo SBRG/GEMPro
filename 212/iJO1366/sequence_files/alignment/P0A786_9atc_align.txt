@@ -1,0 +1,109 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:32
+# Commandline: needle
+#    -outfile P0A786_9atc_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0A786.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/9atc.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0A786_9atc_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A786
+# 2: 9atc.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 311
+# Identity:     309/311 (99.4%)
+# Similarity:   310/311 (99.7%)
+# Gaps:           1/311 ( 0.3%)
+# Score: 1569.0
+# 
+#
+#=======================================
+
+P0A786             1 MANPLYQKHIISINDLSRDDLNLVLATAAKLKANPQPELLKHKVIASCFF     50
+                      |||||||||||||||||||||||||||||||||||||||||||||||||
+9atc.A             1 -ANPLYQKHIISINDLSRDDLNLVLATAAKLKANPQPELLKHKVIASCFF     49
+
+P0A786            51 EASTRTRLSFETSMHRLGASVVGFSDSANTSLGKKGETLADTISVISTYV    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+9atc.A            50 EASTRTRLSFETSMHRLGASVVGFSDSANTSLGKKGETLADTISVISTYV     99
+
+P0A786           101 DAIVMRHPQEGAARLATEFSGNVPVLNAGDGSNQHPTQTLLDLFTIQETQ    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+9atc.A           100 DAIVMRHPQEGAARLATEFSGNVPVLNAGDGSNQHPTQTLLDLFTIQETQ    149
+
+P0A786           151 GRLDNLHVAMVGDLKYGRTVHSLTQALAKFDGNRFYFIAPDALAMPQYIL    200
+                     |||||||||||||||:||||||||||||||||||||||||||||||||||
+9atc.A           150 GRLDNLHVAMVGDLKFGRTVHSLTQALAKFDGNRFYFIAPDALAMPQYIL    199
+
+P0A786           201 DMLDEKGIAWSLHSSIEEVMAEVDILYMTRVQKERLDPSEYANVKAQFVL    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+9atc.A           200 DMLDEKGIAWSLHSSIEEVMAEVDILYMTRVQKERLDPSEYANVKAQFVL    249
+
+P0A786           251 RASDLHNAKANMKVLHPLPRVDEIATDVDKTPHAWYFQQAGNGIFARQAL    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+9atc.A           250 RASDLHNAKANMKVLHPLPRVDEIATDVDKTPHAWYFQQAGNGIFARQAL    299
+
+P0A786           301 LALVLNRDLVL    311
+                     |||||||||||
+9atc.A           300 LALVLNRDLVL    310
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A786
+# 2: 9atc.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 342
+# Identity:      37/342 (10.8%)
+# Similarity:    57/342 (16.7%)
+# Gaps:         227/342 (66.4%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+P0A786             1 MANPLYQKHIISINDLSRDDLNLVLATAAKLKANPQPELLKHKVIASCFF     50
+                                                                       
+9atc.B             0 --------------------------------------------------      0
+
+P0A786            51 EASTRTRLSFETSMHRLGASVVGFSDSANTSLGKKGETLADTISVISTYV    100
+                                                                       
+9atc.B             0 --------------------------------------------------      0
+
+P0A786           101 DAIVMRHPQEGAARLATEFSGNVPVLNAGDGSNQHPTQ---TLLDLFTIQ    147
+                                          .|..:..|...:..|.|   .||.||.:.
+9atc.B             1 ---------------------QVEAIKRGTVIDHIPAQIGFKLLSLFKLT     29
+
+P0A786           148 ETQGRLD---NLHVAMVGDLKYGRTVHSLTQALAKFDGNRFYFIAPD---    191
+                     ||..|:.   ||....:|           .:.|.|.:..   |::.|   
+9atc.B            30 ETDQRITIGLNLPSGEMG-----------RKDLIKIENT---FLSEDQVD     65
+
+P0A786           192 --ALAMPQYILDMLDEKGIAWSLHSSIEEVMAEVDILYMTRVQKERLDP-    238
+                       ||..||..::.:|...:......|:.|           |:....:.| 
+9atc.B            66 QLALYAPQATVNRIDNYEVVGKSRPSLPE-----------RIDNVLVCPN    104
+
+P0A786           239 ----SEYANVKAQFVL--RASDL------------HN-AKANMKVLHPLP    269
+                         |....|.:.|.:  ||:|:            || ..||        
+9atc.B           105 SNCISHAEPVSSSFAVRKRANDIALKCKYCEKEFSHNVVLAN--------    146
+
+P0A786           270 RVDEIATDVDKTPHAWYFQQAGNGIFARQALLALVLNRDLVL    311
+                                                               
+9atc.B           146 ------------------------------------------    146
+
+
+#---------------------------------------
+#---------------------------------------

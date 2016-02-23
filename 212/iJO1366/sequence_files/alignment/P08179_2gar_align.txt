@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:15
+# Commandline: needle
+#    -outfile P08179_2gar_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P08179.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/2gar.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P08179_2gar_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P08179
+# 2: 2gar.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 212
+# Identity:     187/212 (88.2%)
+# Similarity:   187/212 (88.2%)
+# Gaps:           3/212 ( 1.4%)
+# Score: 942.0
+# 
+#
+#=======================================
+
+P08179             1 MNIVVLISGNGSNLQAIIDACKTNKIKGTVRAVFSNKADAFGLERARQAG     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2gar.A             1 MNIVVLISGNGSNLQAIIDACKTNKIKGTVRAVFSNKADAFGLERARQAG     50
+
+P08179            51 IATHTLIASAFDSREAYDRELIHEIDMYAPDVVVLAGFMRILSPAFVSHY    100
+                     |||||||||||||||||||.||||||||||||||||||||||||||||||
+2gar.A            51 IATHTLIASAFDSREAYDRALIHEIDMYAPDVVVLAGFMRILSPAFVSHY    100
+
+P08179           101 AGRLLNIHPSLLPKYPGLHTHRQALENGDEEHGTSVHFVTDELDGGPVIL    150
+                     ||||||||||.....................|||||||||||||||||||
+2gar.A           101 AGRLLNIHPSXXXXXXXXXXXXXXXXXXXXXHGTSVHFVTDELDGGPVIL    150
+
+P08179           151 QAKVPVFAGDSEDDITARVQTQEHAIYPLVISWFADGRLKMHENAAWLDG    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2gar.A           151 QAKVPVFAGDSEDDITARVQTQEHAIYPLVISWFADGRLKMHENAAWLDG    200
+
+P08179           201 QRLPPQGYAADE    212
+                     |||||||||   
+2gar.A           201 QRLPPQGYA---    209
+
+
+#---------------------------------------
+#---------------------------------------

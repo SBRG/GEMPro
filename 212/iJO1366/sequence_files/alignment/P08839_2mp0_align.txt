@@ -1,0 +1,149 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:17
+# Commandline: needle
+#    -outfile P08839_2mp0_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P08839.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/2mp0.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P08839_2mp0_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P08839
+# 2: 2mp0.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 575
+# Identity:     249/575 (43.3%)
+# Similarity:   249/575 (43.3%)
+# Gaps:         326/575 (56.7%)
+# Score: 1207.0
+# 
+#
+#=======================================
+
+P08839             1 MISGILASPGIAFGKALLLKEDEIVIDRKKISADQVDQEVERFLSGRAKA     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2mp0.A             1 MISGILASPGIAFGKALLLKEDEIVIDRKKISADQVDQEVERFLSGRAKA     50
+
+P08839            51 SAQLETIKTKAGETFGEEKEAIFEGHIMLLEDEELEQEIIALIKDKHMTA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2mp0.A            51 SAQLETIKTKAGETFGEEKEAIFEGHIMLLEDEELEQEIIALIKDKHMTA    100
+
+P08839           101 DAAAHEVIEGQASALEELDDEYLKERAADVRDIGKRLLRNILGLKIIDLS    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2mp0.A           101 DAAAHEVIEGQASALEELDDEYLKERAADVRDIGKRLLRNILGLKIIDLS    150
+
+P08839           151 AIQDEVILVAADLTPSETAQLNLKKVLGFITDAGGRTSHTSIMARSLELP    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2mp0.A           151 AIQDEVILVAADLTPSETAQLNLKKVLGFITDAGGRTSHTSIMARSLELP    200
+
+P08839           201 AIVGTGSVTSQVKNDDYLILDAVNNQVYVNPTNEVIDKMRAVQEQVASEK    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||| 
+2mp0.A           201 AIVGTGSVTSQVKNDDYLILDAVNNQVYVNPTNEVIDKMRAVQEQVASE-    249
+
+P08839           251 AELAKLKDLPAITLDGHQVEVCANIGTVRDVEGAERNGAEGVGLYRTEFL    300
+                                                                       
+2mp0.A           249 --------------------------------------------------    249
+
+P08839           301 FMDRDALPTEEEQFAAYKAVAEACGSQAVIVRTMDIGGDKELPYMNFPKE    350
+                                                                       
+2mp0.A           249 --------------------------------------------------    249
+
+P08839           351 ENPFLGWRAIRIAMDRREILRDQLRAILRASAFGKLRIMFPMIISVEEVR    400
+                                                                       
+2mp0.A           249 --------------------------------------------------    249
+
+P08839           401 ALRKEIEIYKQELRDEGKAFDESIEIGVMVETPAAATIARHLAKEVDFFS    450
+                                                                       
+2mp0.A           249 --------------------------------------------------    249
+
+P08839           451 IGTNDLTQYTLAVDRGNDMISHLYQPMSPSVLNLIKQVIDASHAEGKWTG    500
+                                                                       
+2mp0.A           249 --------------------------------------------------    249
+
+P08839           501 MCGELAGDERATLLLLGMGLDEFSMSAISIPRIKKIIRNTNFEDAKVLAE    550
+                                                                       
+2mp0.A           249 --------------------------------------------------    249
+
+P08839           551 QALAQPTTDELMTLVNKFIEEKTIC    575
+                                              
+2mp0.A           249 -------------------------    249
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P08839
+# 2: 2mp0.B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 593
+# Identity:      40/593 ( 6.7%)
+# Similarity:    71/593 (12.0%)
+# Gaps:         462/593 (77.9%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+P08839             1 MISGILASPGIAFGKALLLKEDEIVIDRKKISADQVDQEVERFLSGRAKA     50
+                                                                       
+2mp0.B             0 --------------------------------------------------      0
+
+P08839            51 SAQLETIKTKAGETFGEEKEAIFEGHIMLLEDEELEQEIIALIKDKHMTA    100
+                                                                       
+2mp0.B             0 --------------------------------------------------      0
+
+P08839           101 DAAAHEVIEGQASALEELDDEYLKERAADVRDIGKRLLRNILGLKIIDLS    150
+                                                                       
+2mp0.B             0 --------------------------------------------------      0
+
+P08839           151 AIQDEVILVAADLTPSETAQLNLKKVLGFITDAGGRTSHTSIMARSLELP    200
+                                                                       
+2mp0.B             0 --------------------------------------------------      0
+
+P08839           201 AIVGTGSVTSQVKNDDYLILDAVNNQVYVNPTNEVIDKMRAVQEQVASEK    250
+                                                              ..|.:|...
+2mp0.B             1 -----------------------------------------TIEIIAPLS      9
+
+P08839           251 AELAKLKDLPAITL------DGHQVEVCANIGTVRDVEGA-----ERNGA    289
+                     .|:..::|:|.:..      ||..::...| ..|..|:|.     |.|.|
+2mp0.B            10 GEIVNIEDVPDVVFAEKIVGDGIAIKPTGN-KMVAPVDGTIGKIFETNHA     58
+
+P08839           290 ------EGVGLYRTEFLFMDRDALPTEEEQFAAYKAVAEACGSQAVIVRT    333
+                           .||.|: ..|      .:.|.|.:...:|.:||    :...|:.
+2mp0.B            59 FSIESDSGVELF-VHF------GIDTVELKGEGFKRIAE----EGQRVKV     97
+
+P08839           334 MDIGGDKELPYMNFPKEENPFLGWRAIRIAMDRREILRDQLRAILRASAF    383
+                     .|...:.:||                         :|.::.::.|.    
+2mp0.B            98 GDTVIEFDLP-------------------------LLEEKAKSTLT----    118
+
+P08839           384 GKLRIMFPMIIS-VEEVRALRKEIEIYKQELRDEGKAFDESIEIGVMVET    432
+                            |::|| ::|::.|.|               ...|:.:|   ||
+2mp0.B           119 -------PVVISNMDEIKELIK---------------LSGSVTVG---ET    143
+
+P08839           433 PAAATIARHLAKEVDFFSIGTNDLTQYTLAVDRGNDMISHLYQPMSPSVL    482
+                     |.....                                            
+2mp0.B           144 PVIRIK--------------------------------------------    149
+
+P08839           483 NLIKQVIDASHAEGKWTGMCGELAGDERATLLLLGMGLDEFSMSAISIPR    532
+                                                                       
+2mp0.B           149 --------------------------------------------------    149
+
+P08839           533 IKKIIRNTNFEDAKVLAEQALAQPTTDELMTLVNKFIEEKTIC    575
+                                                                
+2mp0.B           149 -------------------------------------------    149
+
+
+#---------------------------------------
+#---------------------------------------

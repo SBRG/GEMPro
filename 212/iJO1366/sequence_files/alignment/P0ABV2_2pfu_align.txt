@@ -1,0 +1,46 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:57
+# Commandline: needle
+#    -outfile P0ABV2_2pfu_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0ABV2.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/2pfu.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0ABV2_2pfu_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0ABV2
+# 2: 2pfu.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 141
+# Identity:      98/141 (69.5%)
+# Similarity:    99/141 (70.2%)
+# Gaps:          42/141 (29.8%)
+# Score: 500.0
+# 
+#
+#=======================================
+
+P0ABV2             1 MAMHLNENLDDNGEMHDINVTPFIDVMLVLLIIFMVAAPLATVDVKVNLP     50
+                                                               :|||||||
+2pfu.A             1 ------------------------------------------MDVKVNLP      8
+
+P0ABV2            51 ASTSTPQPRPEKPVYLSVKADNSMFIGNDPVTDETMITALNALTEGKKDT    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2pfu.A             9 ASTSTPQPRPEKPVYLSVKADNSMFIGNDPVTDETMITALNALTEGKKDT     58
+
+P0ABV2           101 TIFFRADKTVDYETLMKVMDTLHQAGYLKIGLVGEETAKAK    141
+                     |||||||||||||||||||||||||||||||||||||||||
+2pfu.A            59 TIFFRADKTVDYETLMKVMDTLHQAGYLKIGLVGEETAKAK     99
+
+
+#---------------------------------------
+#---------------------------------------

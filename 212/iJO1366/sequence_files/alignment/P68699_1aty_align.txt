@@ -1,0 +1,42 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:08:59
+# Commandline: needle
+#    -outfile P68699_1aty_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P68699.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/1aty.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P68699_1aty_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P68699
+# 2: 1aty.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 79
+# Identity:      45/79 (57.0%)
+# Similarity:    45/79 (57.0%)
+# Gaps:           8/79 (10.1%)
+# Score: 190.0
+# 
+#
+#=======================================
+
+P68699             1 MENLNMDLLYMAAAVMMGLAAIGAAIGIGILGGKFLEGAARQPDLIPLLR     50
+                             ||||||||||||||||||........................
+1aty.A             1 --------LYMAAAVMMGLAAIGAAIXXXXXXXXXXXXXXXXXXXXXXXX     42
+
+P68699            51 TQFFIVMGLVDAIPMIAVGLGLYVMFAVA     79
+                     .|||||||||||||||.||||||||||||
+1aty.A            43 XQFFIVMGLVDAIPMICVGLGLYVMFAVA     71
+
+
+#---------------------------------------
+#---------------------------------------

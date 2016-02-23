@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:43
+# Commandline: needle
+#    -outfile P0A935_2pic_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0A935.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/2pic.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0A935_2pic_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0A935
+# 2: 2pic.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 365
+# Identity:     333/365 (91.2%)
+# Similarity:   334/365 (91.5%)
+# Gaps:          29/365 ( 7.9%)
+# Score: 1773.0
+# 
+#
+#=======================================
+
+P0A935             1 MKGRWVKYLLMGTVVAMLAACSSKPTDRGQQYKDGKFTQPFSLVNQPDAV     50
+                                          |||||||||||||||||||||||||||||
+2pic.A             1 ---------------------SSKPTDRGQQYKDGKFTQPFSLVNQPDAV     29
+
+P0A935            51 GAPINAGDFAEQINHIRNSSPRLYGNQSNVYNAVQEWLRAGGDTRNMRQF    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2pic.A            30 GAPINAGDFAEQINHIRNSSPRLYGNQSNVYNAVQEWLRAGGDTRNMRQF     79
+
+P0A935           101 GIDAWQMEGADNYGNVQFTGYYTPVIQARHTRQGEFQYPIYRMPPKRGRL    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2pic.A            80 GIDAWQMEGADNYGNVQFTGYYTPVIQARHTRQGEFQYPIYRMPPKRGRL    129
+
+P0A935           151 PSRAEIYAGALSDKYILAYSNSLMDNFIMDVQGSGYIDFGDGSPLNFFSY    200
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+2pic.A           130 SSRAEIYAGALSDKYILAYSNSLMDNFIMDVQGSGYIDFGDGSPLNFFSY    179
+
+P0A935           201 AGKNGHAYRSIGKVLIDRGEVKKEDMSMQAIRHWGETHSEAEVRELLEQN    250
+                     ||||||||||||||:|||||||||||||||||||||||||||||||||||
+2pic.A           180 AGKNGHAYRSIGKVIIDRGEVKKEDMSMQAIRHWGETHSEAEVRELLEQN    229
+
+P0A935           251 PSFVFFKPQSFAPVKGASAVPLVGRASVASDRSIIPPGTTLLAEVPLLDN    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2pic.A           230 PSFVFFKPQSFAPVKGASAVPLVGRASVASDRSIIPPGTTLLAEVPLLDN    279
+
+P0A935           301 NGKFNGQYELRLMVALDVGGAIKGQHFDIYQGIGPEAGHRAGWYNHYGRV    350
+                     |||||||||||||||||||||||||||.||||||||||||||||||||||
+2pic.A           280 NGKFNGQYELRLMVALDVGGAIKGQHFAIYQGIGPEAGHRAGWYNHYGRV    329
+
+P0A935           351 WVLKTAPGAGNVFSG    365
+                     |||||||        
+2pic.A           330 WVLKTAP--------    336
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Thu 18 Feb 2016 07:07:54
+# Commandline: needle
+#    -outfile P0ABL1_2ozy_align.txt
+#    -asequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/uniprot_sequences/P0ABL1.faa
+#    -bsequence /home/teaching-assistant/212/GEM-PRO_tutorial/iJO1366/sequence_files/pdb_sequences/2ozy.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: P0ABL1_2ozy_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: P0ABL1
+# 2: 2ozy.A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 188
+# Identity:     142/188 (75.5%)
+# Similarity:   142/188 (75.5%)
+# Gaps:          46/188 (24.5%)
+# Score: 807.0
+# 
+#
+#=======================================
+
+P0ABL1             1 MSVLRSLLTAGVLASGLLWSLNGITATPAAQASDDRYEVTQQRNPDAACL     50
+                                                                |||||||
+2ozy.A             1 -------------------------------------------NPDAACL      7
+
+P0ABL1            51 DCHKPDTEGMHGKHASVINPNNKLPVTCTNCHGQPSPQHREGVKDVMRFN    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2ozy.A             8 DCHKPDTEGMHGKHASVINPNNKLPVTCTNCHGQPSPQHREGVKDVMRFN     57
+
+P0ABL1           101 EPMYKVGEQNSVCMSCHLPEQLQKAFWPHDVHVTKVACASCHSLHPQQDT    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2ozy.A            58 EPMYKVGEQNSVCMSCHLPEQLQKAFWPHDVHVTKVACASCHSLHPQQDT    107
+
+P0ABL1           151 MQTLSDKGRIKICVDCHSDQRTNPNFNPASVPLLKEQP    188
+                     |||||||||||||||||||||||||||||||||||   
+2ozy.A           108 MQTLSDKGRIKICVDCHSDQRTNPNFNPASVPLLK---    142
+
+
+#---------------------------------------
+#---------------------------------------
